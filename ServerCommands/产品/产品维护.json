@@ -1,0 +1,284 @@
+{
+  "Name": "产品维护",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "产品ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "产品编号",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "名称",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "类型",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "定价",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "备注",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=产品ID"
+                  }
+                },
+                "value": "0",
+                "compareType": 2
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "产品表",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "产品表",
+                      "ColumnName": "ID",
+                      "GUID": "3d229614-a4d5-428b-9ec2-fa757cafb436"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=产品ID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "产品编号",
+                        "GUID": "f5fa0329-ad8f-434b-8ec2-cd52edd944ef"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=产品编号"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "名称",
+                        "GUID": "a65f7a72-0f9b-4a64-97bb-d2cf29c6e3c9"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=名称"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "类型",
+                        "GUID": "b46da078-b517-437a-ae8c-a755433e19d6"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=类型"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "定价",
+                        "GUID": "133a68fe-0dda-48b7-b1a0-f1dade3f796c"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=定价"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "备注",
+                        "GUID": "37577afd-72ae-4a2a-b9c6-7c13f3f2dcff"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=备注"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "e6bb9e9f-6c77-4c09-a967-fda2d42bf16e"
+            },
+            {
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "产品表",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "产品编号",
+                        "GUID": "f3712427-0208-4947-b1df-ed133d4eaf2e"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=产品编号"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "名称",
+                        "GUID": "17bf88f9-2ace-426d-bb12-bfbc5f94019c"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=名称"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "类型",
+                        "GUID": "88e410eb-d4b9-45cd-9541-13bcc1ba5a85"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=类型"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "定价",
+                        "GUID": "43d07f13-d778-458c-a38c-3463a522b79d"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=定价"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品表",
+                        "ColumnName": "备注",
+                        "GUID": "de223b3f-0a16-4a5c-bcad-b95bebcdd490"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=备注"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "8a89d2b1-e5fa-4a80-9113-6774a19da444"
+            }
+          ]
+        },
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "类型行数",
+          "TableValue": {
+            "TableName": "产品类型表",
+            "TableValueType": 3,
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "产品类型表",
+                "ColumnName": "类型",
+                "GUID": "8adc9a59-95e6-445b-be5d-3b684fa1746a"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=类型"
+              }
+            }
+          },
+          "ID": "0a98653c4a944d7386a2e24139f71fe3"
+        },
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=类型行数"
+                  }
+                },
+                "value": "0"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "产品类型表",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "产品类型表",
+                        "ColumnName": "类型",
+                        "GUID": "8d47ef2f-91bf-4359-a6a4-758685c52342"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=类型"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "ID": "7168eb92-32d7-4c87-b7e6-b0f68724ca67"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

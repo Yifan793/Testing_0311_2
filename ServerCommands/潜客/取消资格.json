@@ -1,0 +1,115 @@
+{
+  "Name": "取消资格",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "潜客ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "取消原因",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "潜客表",
+          "ShowConfirm": false,
+          "RowsToUpdate": 1,
+          "RowsToUpdateCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "潜客表",
+              "ColumnName": "ID",
+              "GUID": "c9c98f4d-c6a5-4d83-8d47-4e8b06c7c41e"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=潜客ID"
+            }
+          },
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "潜客表",
+                "ColumnName": "负责人",
+                "GUID": "05709b92-cb97-47c3-8153-ab102f0c8569"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "潜客表",
+                "ColumnName": "取消资格原因",
+                "GUID": "08f274d8-447f-43f4-8dbb-5fc746a26d27"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=取消原因"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "潜客表",
+                "ColumnName": "状态ID",
+                "GUID": "f953da40-4385-4eb1-a75b-1eccfec9528f"
+              },
+              "Value": "3"
+            }
+          ]
+        },
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "潜客记录操作表",
+          "UpdateType": "add",
+          "ShowConfirm": false,
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "潜客记录操作表",
+                "ColumnName": "潜客ID",
+                "GUID": "ed25ec99-0e49-4896-8b37-6697d4ed9cd8"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=潜客ID"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "潜客记录操作表",
+                "ColumnName": "操作类型",
+                "GUID": "d68664d3-b29b-4005-bf16-9d616fe84748"
+              },
+              "Value": "取消资格"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

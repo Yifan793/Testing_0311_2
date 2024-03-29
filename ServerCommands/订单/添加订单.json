@@ -1,0 +1,331 @@
+{
+  "Name": "添加订单",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "订单编号",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "名称",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "收款日期",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "商机ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "明细总金额",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "订单折扣",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "收货地址编号",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "详细收货地址",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "收货联系人",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "收货电话",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "备注",
+          "DataValidationInfo": {}
+        },
+        {
+          "Type": 1,
+          "ArrayParamItems": [
+            {
+              "Name": "产品ID",
+              "DataValidationInfo": {}
+            },
+            {
+              "Name": "单价",
+              "DataValidationInfo": {}
+            },
+            {
+              "Name": "数量",
+              "DataValidationInfo": {}
+            }
+          ],
+          "Name": "明细",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "订单表",
+          "UpdateType": "add",
+          "ShowConfirm": false,
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "订单编号",
+                "GUID": "968c20ce-3dc2-4124-847d-44d3ceda668f"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=订单编号"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "名称",
+                "GUID": "1d064760-7e1b-45be-8cf3-8bd9b11a58db"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=名称"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "收款日期",
+                "GUID": "91f43a05-49f8-4380-849b-5900b32983ba"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=收款日期"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "商机ID",
+                "GUID": "118decf0-b669-42e6-afce-247f296ed272"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=商机ID"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "明细总金额",
+                "GUID": "f86c9798-dc1d-4249-b824-8bfefc7aae49"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=明细总金额"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "订单折扣",
+                "GUID": "96d2da99-bfc9-4c43-92d8-5e6aace43acd"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=订单折扣"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "收货地址编号",
+                "GUID": "a69355b5-3666-4e61-b865-a2b1049a18bf"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=收货地址编号"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "详细收货地址",
+                "GUID": "8e415a0e-e9eb-491f-8598-d57811af3e16"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=详细收货地址"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "收货联系人",
+                "GUID": "05fa9091-c305-41fb-b01a-ce3ef20169bd"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=收货联系人"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "收货电话",
+                "GUID": "ef5751c9-5713-4040-b0f4-8d1279d2ac68"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=收货电话"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "备注",
+                "GUID": "0aef06c1-7f6e-4160-96fd-8c0f763e2044"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=备注"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "订单表",
+                "ColumnName": "状态ID",
+                "GUID": "a4a85554-ea93-4700-9634-91c6fe25d85a"
+              },
+              "Value": "1"
+            }
+          ],
+          "ParamNameToSaveNewRowValue": "新订单"
+        },
+        {
+          "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+          "LoopInfo": {
+            "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+            "LoopCount": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=明细"
+            },
+            "LoopItemParamName": "Item"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "订单明细表",
+              "UpdateType": "add",
+              "ShowConfirm": false,
+              "UpdateBindingValues": [
+                {
+                  "BindingInfo": {
+                    "TableName": "订单明细表",
+                    "ColumnName": "订单表ID",
+                    "GUID": "dddec321-ebc7-481c-9d78-be23358618a4"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=新订单.ID"
+                  }
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "订单明细表",
+                    "ColumnName": "产品ID",
+                    "GUID": "3bba0b2f-fc6b-4bd0-bc35-5baa8240517c"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.产品ID"
+                  }
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "订单明细表",
+                    "ColumnName": "单价",
+                    "GUID": "0d2e0952-0ae6-438d-a90d-b414ea6d7a87"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.单价"
+                  }
+                },
+                {
+                  "BindingInfo": {
+                    "TableName": "订单明细表",
+                    "ColumnName": "数量",
+                    "GUID": "587289b8-ec2a-4023-aa9d-4889fb9d1d8d"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Item.数量"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "商机表",
+          "ShowConfirm": false,
+          "RowsToUpdate": 1,
+          "RowsToUpdateCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "商机表",
+              "ColumnName": "ID",
+              "GUID": "959abd09-f151-4a96-8a89-87c043b1ffab"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=商机ID"
+            }
+          },
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "商机表",
+                "ColumnName": "订单编号",
+                "GUID": "8fda25f9-448f-4631-86c7-598ddbc70c19"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=订单编号"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

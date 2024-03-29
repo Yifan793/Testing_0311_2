@@ -1,0 +1,165 @@
+{
+  "Name": "认领",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "潜客ID",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "负责人",
+          "TableValue": {
+            "TableName": "潜客表",
+            "OnlyGetValue": true,
+            "TableValueType": 0,
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "负责人",
+                  "GUID": "9a76f15f-bf35-4056-9ca0-be9cc0fcc447"
+                },
+                "ColumnName": "负责人"
+              }
+            ],
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "潜客表",
+                "ColumnName": "ID",
+                "GUID": "5a9505c1-99c5-4523-95d5-e767d3da65fe"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=潜客ID"
+              }
+            }
+          },
+          "ID": "e7758f778fe2470f9271638e7f47283b"
+        },
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=负责人"
+                  }
+                },
+                "value": "%Null%",
+                "compareType": 1
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                  "ErrorCode": "-1",
+                  "Message": "当前潜客已被他人认领"
+                }
+              ],
+              "ID": "97bf96aa-ebb2-4ae0-b559-1b8aa94ce310"
+            },
+            {
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "潜客表",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "潜客表",
+                      "ColumnName": "ID",
+                      "GUID": "262934a9-4f46-45c5-9a19-6bc523592a04"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=潜客ID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "潜客表",
+                        "ColumnName": "负责人",
+                        "GUID": "32a9ccc3-eec5-421e-8b0a-ce115f7f0c49"
+                      },
+                      "Value": "%CurrentUser%"
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "潜客表",
+                        "ColumnName": "状态ID",
+                        "GUID": "a1909852-e77b-48e1-a597-60ec2528bf17"
+                      },
+                      "Value": "2"
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "潜客记录操作表",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "潜客记录操作表",
+                        "ColumnName": "潜客ID",
+                        "GUID": "5026dc1f-3f67-48fd-9867-f28080741776"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客ID"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "潜客记录操作表",
+                        "ColumnName": "操作类型",
+                        "GUID": "9634d3bb-7edd-416a-9d5d-bf97d0c27830"
+                      },
+                      "Value": "认领"
+                    }
+                  ]
+                }
+              ],
+              "ID": "b914ebfd-5bd7-4098-b1b7-88b115230bb7"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

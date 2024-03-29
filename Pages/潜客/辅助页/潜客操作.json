@@ -1,0 +1,355 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 4,
+    "DefaultSize": 8.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 96.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 265.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      1
+    ],
+    "Count": 2,
+    "DefaultSize": 96.0
+  },
+  "Values": {
+    "1,0": "授予资格",
+    "2,0": "取消资格"
+  },
+  "AttachInfos": {
+    "1,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=潜客操作!B3"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=潜客操作!A2"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "授予资格",
+        "TemplateKey": "_RS_Minor3"
+      }
+    },
+    "1,1": {
+      "BindingInfo": {
+        "TableName": "潜客表",
+        "ColumnName": "ID",
+        "GUID": "ae519502-2ff7-4a4c-9c9d-4451996f2fa1"
+      }
+    },
+    "2,0": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=潜客操作!B3"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=潜客操作!A3"
+                }
+              }
+            ]
+          },
+          {
+            "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
+            "Title": "确认",
+            "Message": "确认放弃该潜客",
+            "Type": "none",
+            "ConfirmButtonText": "确定",
+            "CancelButtonText": "取消",
+            "DialogResult": "确认结果",
+            "AdvancedSettings": {},
+            "Disabled": true
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=潜客操作!确认结果"
+                      }
+                    ]
+                  },
+                  "value": "confirm"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "取消资格",
+                    "Parameters": [
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "潜客ID",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=潜客操作!B2"
+                        }
+                      },
+                      {
+                        "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                        "ParamName": "取消原因"
+                      }
+                    ],
+                    "ResultErrorCodeTo": {
+                      "SerializeProperty": "返回码"
+                    },
+                    "ResultMessageTo": {
+                      "SerializeProperty": "返回信息"
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=潜客操作!返回码"
+                              }
+                            ]
+                          },
+                          "value": "0",
+                          "compareType": 1
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                            "Message": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=潜客操作!返回信息"
+                            },
+                            "Type": "error",
+                            "Duration": 3000,
+                            "Offset": null
+                          }
+                        ],
+                        "ID": "f33d34b7-7778-40ce-b071-2d775dba9a16"
+                      },
+                      {
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                            "ReloadData": true
+                          }
+                        ],
+                        "ID": "3b4ea6f3-1304-40f6-80f2-62e3257123f9"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "7076abcd-27b1-4214-94b1-5c61f20bb254"
+              }
+            ],
+            "Disabled": true
+          }
+        ],
+        "Text": "取消资格",
+        "TemplateKey": "_RS_Minor3"
+      }
+    },
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "样式1",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionContextPropertyParam, ServerDesignerCommon",
+                    "contextProperty": {
+                      "Display": "值变更原因"
+                    }
+                  },
+                  "value": "command"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "PassValueBack": true
+                  }
+                ],
+                "ID": "a4aa2399-959a-4294-81dc-cf6ae5ed5b49"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": null,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": null
+      },
+      {
+        "Formatter": 2
+      },
+      {
+        "Foreground": 3
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "@",
+        "Text 1 50"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "1,0": 1,
+      "1,1": 2,
+      "2,0": 3,
+      "2,1": 4,
+      "3,0": 0,
+      "3,1": 0
+    },
+    "RowStyles": {
+      "0": 5,
+      "1": 6,
+      "2": 6,
+      "3": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "6b63091e-86eb-4b32-9fb8-54e9fca16186.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "CornerRadius": 4.0,
+        "Fill": "Background 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "Background 1 -15",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "96,80",
+      "BoxShadowString": "0 0 0 4 Text_1_50"
+    }
+  ]
+}//k6yJ6PlBS95Ph2pcgBqcqZr4B+zqEc4W5a8tSbZZBNxMQnByf2dcHS/T2sncXtjDl2YWQCYJLDjTKKNiwjYqUkfqFqmDoBmfcnKjepu9kbT7UZrC1DtUUlbFi0o/qliW16WvxH4Ij93wLfT2seicF13pKWQEENPKD0mduIBH7JHjZuVCI4iW/QITJskoWS83zBhMmI/FlUU/uGF50qGa0rtduYQxaF1ttxKNUX3Q7KYgIdS1tRN6zLAfamxmkgGhURRDv+QCcFJb/pffnSf+2PSOHBQApOTy43CF+Y34m6glkf698DGW7C6f88t/VXPGKqwV02gKcaVAOVijEs/Qk9nlGkyGCGOOVf2OQVUfGW4Po3/TVc+1ZVKAMeuTj9pZzAd5ykYBTvqLyqwrkp0Jf8kk1Fbo9KK4DlfISr12cRtEpeE7x/Ex6tgIkh4bKdTjRhiUCswYi2A7ecfvVC7P25ZQfeLJP4+yYfPrvSha2qgY+JX+O0hRbe0QPNmRk1B0k3+O8F6uglWqfW1FVQpjTCkZz2tETXjhFwA+c/F0zPEtRZwK4l9o3UaaLadtmSPLb4EUu6bxu0W1W8Hze+8NdC5oa27eVunHDf6n47PAA4oLd4P9IYOTFpd8kTn2K2rfQF9pbp+kZTuBZruI10coV/9/f4MOgCKe6wClh+Or+LnqleJxgfRW6MLsH1ldTOr6ukLqyL/TzBWoEst/sKvxzlRkm/S1ERXd69akx4d8d0Uo2JQNkp+M6ztRXNgO9oQgALdYq+T6qREcBFHQKNBmcb9WXfNfwbDU2yuUStn+3LeqUDKd12M0qdS/ycG7tStr6SplNP8kBfFTpfTkNOMTgW9S/HcFRVKirRkZmTL1h8XLuzAaUj8P146hgEt2xOWcZGJqAfdCR4xs+0mLi45JZg==|920

@@ -1,0 +1,580 @@
+{
+  "Name": "授予资格",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "潜客ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "授予类型",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "商机名称",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "潜客信息",
+          "TableValue": {
+            "TableName": "潜客表",
+            "TableValueType": 1,
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "姓名",
+                  "GUID": "b872e7f0-562c-49c5-b108-1b86cd928fc8"
+                },
+                "ColumnName": "姓名"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "公司",
+                  "GUID": "ca491c36-9ae2-4728-b0bd-330811df8978"
+                },
+                "ColumnName": "公司"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "职位",
+                  "GUID": "a6578a6c-48c9-4d37-a98e-f561c574fd97"
+                },
+                "ColumnName": "职位"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "手机",
+                  "GUID": "2892566d-2395-4900-8a83-0db0c0c68eaa"
+                },
+                "ColumnName": "手机"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "电子邮箱",
+                  "GUID": "2c34cc45-6a73-489a-9317-1031b178f189"
+                },
+                "ColumnName": "电子邮箱"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "潜客来源ID",
+                  "GUID": "90474a6f-1c4a-4430-b377-220554f6ec37"
+                },
+                "ColumnName": "潜客来源ID"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "网站",
+                  "GUID": "cbb96940-53a6-458c-aefc-8dad4186e490"
+                },
+                "ColumnName": "网站"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "行业ID",
+                  "GUID": "beac1dc1-6e9d-415b-abe9-42436f8932f2"
+                },
+                "ColumnName": "行业ID"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "客户类型ID",
+                  "GUID": "5795dbcf-7a3b-4a8a-81fa-e51f8120df27"
+                },
+                "ColumnName": "客户类型ID"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "年收入",
+                  "GUID": "ae93f890-d30d-4d85-9bb1-1cd3b0903de1"
+                },
+                "ColumnName": "年收入"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "员工数",
+                  "GUID": "ed4b405f-8b3e-44da-9e48-94334428ac71"
+                },
+                "ColumnName": "员工数"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "地址编号",
+                  "GUID": "63415a70-a262-4ea9-b14e-e47716100ad7"
+                },
+                "ColumnName": "地址编号"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "详细地址",
+                  "GUID": "362339ca-a814-44b7-a04f-9e55df1b82ff"
+                },
+                "ColumnName": "详细地址"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "负责人",
+                  "GUID": "51fd2fd4-7754-4745-8d58-8ca70879830a"
+                },
+                "ColumnName": "负责人"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "备注",
+                  "GUID": "166599dc-dbbc-4acd-944c-c305fea05a32"
+                },
+                "ColumnName": "备注"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "潜客表",
+                  "ColumnName": "电话",
+                  "GUID": "119b5663-d3c0-4efd-8f3c-77c9678ce6aa"
+                },
+                "ColumnName": "电话"
+              }
+            ],
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "潜客表",
+                "ColumnName": "ID",
+                "GUID": "b0305f39-21e3-4498-ab63-b306e14930d2"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=潜客ID"
+              }
+            }
+          },
+          "ID": "6dc1553d3eb046ed9e4b1ac8414a7521"
+        },
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "客户行数",
+          "TableValue": {
+            "TableName": "客户表",
+            "TableValueType": 3,
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "名称",
+                "GUID": "f2c69ef2-0c97-4e0e-a8c0-951311ddce2f"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=潜客信息.公司"
+              }
+            }
+          },
+          "ID": "dcbe932e425941159e37c52cebe46f28"
+        },
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=客户行数"
+                  }
+                },
+                "value": "0",
+                "compareType": 2
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                  "ErrorCode": "-1",
+                  "Message": "当前客户已存在，请在该客户下关联联系人"
+                }
+              ],
+              "ID": "65ce18ef-4ca0-406c-9cc8-a486d8817c25"
+            },
+            {
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "潜客表",
+                  "ShowConfirm": false,
+                  "RowsToUpdate": 1,
+                  "RowsToUpdateCondition": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "潜客表",
+                      "ColumnName": "ID",
+                      "GUID": "e847e252-f43d-4cd6-9e58-04fa4c9c5eec"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=潜客ID"
+                    }
+                  },
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "潜客表",
+                        "ColumnName": "状态ID",
+                        "GUID": "36b95490-19d9-402a-b473-82e65175ea15"
+                      },
+                      "Value": "4"
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "潜客记录操作表",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "潜客记录操作表",
+                        "ColumnName": "潜客ID",
+                        "GUID": "cda5b01c-c59d-4798-af9b-213a613e7e35"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客ID"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "潜客记录操作表",
+                        "ColumnName": "操作类型",
+                        "GUID": "9711d3b0-2d82-418c-90a3-56f54119b027"
+                      },
+                      "Value": "授予资格"
+                    }
+                  ]
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "客户表",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "客户表",
+                        "ColumnName": "名称",
+                        "GUID": "7294bc03-3891-4db1-b32f-5ee4d73dd585"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.公司"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "客户表",
+                        "ColumnName": "电话",
+                        "GUID": "100ac785-e5bb-4426-a268-5e2c43ae9827"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.电话"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "客户表",
+                        "ColumnName": "行业ID",
+                        "GUID": "19a77706-642d-4d51-be50-5389cdf9da03"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.行业ID"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "客户表",
+                        "ColumnName": "网站",
+                        "GUID": "a053df32-5b64-4b23-b20f-79090272a6e7"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.网站"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "客户表",
+                        "ColumnName": "年收入",
+                        "GUID": "5f710f9a-0cf7-4aae-9590-b52f10741340"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.年收入"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "客户表",
+                        "ColumnName": "员工数",
+                        "GUID": "3142cc75-8621-4658-b578-e3f0974a9bcd"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.员工数"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "客户表",
+                        "ColumnName": "地址编号",
+                        "GUID": "5ffe90ce-5d28-4d82-b8d8-67395de16cd3"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.地址编号"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "客户表",
+                        "ColumnName": "详细地址",
+                        "GUID": "e54332b1-5370-460f-8a64-ac293f2a07f1"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.详细地址"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "客户表",
+                        "ColumnName": "客户类型ID",
+                        "GUID": "7891bd33-d44b-471d-8157-7f91b78726c0"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.客户类型ID"
+                      }
+                    }
+                  ],
+                  "ParamNameToSaveNewRowValue": "新客户"
+                },
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "联系人表",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "UpdateBindingValues": [
+                    {
+                      "BindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "姓名",
+                        "GUID": "4e8ee5a9-b987-4dd9-8512-6fcca0d532ab"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.姓名"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "职位",
+                        "GUID": "260ef642-fbe2-4515-8111-eabc227c99e5"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.职位"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "手机",
+                        "GUID": "5c3281a0-2e3c-4f1a-8055-9031cc1c6729"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.手机"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "电话",
+                        "GUID": "2b63edd6-7871-4694-9b18-6248c46574c2"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.电话"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "电子邮箱",
+                        "GUID": "84f11951-ef56-4568-b444-e97e2678f15f"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.电子邮箱"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "客户ID",
+                        "GUID": "d62f42bd-3667-46f3-8e4f-423cfce8bfd2"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=新客户.ID"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "地址编号",
+                        "GUID": "c03520a5-bde4-47a4-8f18-e6b2b17a3610"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.地址编号"
+                      }
+                    },
+                    {
+                      "BindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "详细地址",
+                        "GUID": "9ef54a0c-4c90-474c-9301-13f9df0ba617"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=潜客信息.详细地址"
+                      }
+                    }
+                  ],
+                  "ParamNameToSaveNewRowValue": "新联系人"
+                },
+                {
+                  "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                  "ConditionAndCommandPairList": [
+                    {
+                      "Condition": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                          "ParamObject": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=授予类型"
+                          }
+                        },
+                        "value": "1"
+                      },
+                      "CommandList": [
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "商机表",
+                          "UpdateType": "add",
+                          "ShowConfirm": false,
+                          "UpdateBindingValues": [
+                            {
+                              "BindingInfo": {
+                                "TableName": "商机表",
+                                "ColumnName": "商机名称",
+                                "GUID": "7e5da294-3467-4b79-9251-78e42e6ca8e3"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=商机名称"
+                              }
+                            },
+                            {
+                              "BindingInfo": {
+                                "TableName": "商机表",
+                                "ColumnName": "客户ID",
+                                "GUID": "1154abee-f001-4c18-9411-b16cdc1791b4"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=新客户.ID"
+                              }
+                            },
+                            {
+                              "BindingInfo": {
+                                "TableName": "商机表",
+                                "ColumnName": "联系人ID",
+                                "GUID": "6728383c-1270-446b-aede-8b974ca307bc"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=新联系人.ID"
+                              }
+                            },
+                            {
+                              "BindingInfo": {
+                                "TableName": "商机表",
+                                "ColumnName": "可能性",
+                                "GUID": "de18e363-8c03-4a87-9bee-17493f221d47"
+                              },
+                              "Value": "0"
+                            }
+                          ]
+                        }
+                      ],
+                      "ID": "f420d407-1df8-4f83-93b0-26dcc1eeb308"
+                    }
+                  ]
+                }
+              ],
+              "ID": "8764f809-5bca-43eb-b3a2-6be50a6eb90f"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

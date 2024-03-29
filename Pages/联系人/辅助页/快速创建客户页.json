@@ -1,0 +1,607 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 15,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 266.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      27
+    ],
+    "Count": 28,
+    "DefaultSize": 16.0
+  },
+  "Values": {
+    "1,1": "名称",
+    "4,1": "客户类型",
+    "7,1": "行业",
+    "10,1": "电话",
+    "13,15": "取消",
+    "13,20": "保存并关联"
+  },
+  "AttachInfos": {
+    "1,27": {
+      "CellComment": {
+        "Comments": "返回新创建的客户ID"
+      },
+      "BindingInfo": {
+        "TableName": "客户表",
+        "ColumnName": "ID",
+        "GUID": "d22ff6c9-3c6e-4ac6-be3b-230db32fb095"
+      }
+    },
+    "2,1": {
+      "BindingInfo": {
+        "TableName": "客户表",
+        "ColumnName": "名称",
+        "GUID": "cc46c4c9-d96a-4d5d-b39d-109e143f8ca3"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "ErrorMessage": "请输入客户名称",
+        "ErrorTo": 1,
+        "ErrorToTargetCell": {
+          "SerializeProperty": "=快速创建客户页!B4"
+        }
+      }
+    },
+    "5,1": {
+      "BindingInfo": {
+        "TableName": "客户表",
+        "ColumnName": "客户类型ID",
+        "GUID": "e6ce7866-aaea-4c04-b5d4-022aec86aa64"
+      },
+      "CellType": {
+        "$type": "ElementUI.SelectCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "useBinding": true,
+        "options": [
+          {
+            "value": "黄金糕",
+            "label": "黄金糕"
+          },
+          {
+            "value": "双皮奶",
+            "label": "双皮奶"
+          },
+          {
+            "value": "蚵仔煎",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "龙须面",
+            "label": "龙须面"
+          },
+          {
+            "value": "北京烤鸭",
+            "label": "北京烤鸭"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "客户类型表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "客户类型表",
+                "ColumnName": "ID",
+                "GUID": "812b0456-160e-4975-b7d2-535a585b30aa"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户类型表",
+                "ColumnName": "类型",
+                "GUID": "2887559c-8747-48d2-8c04-665bf9e73edb"
+              },
+              "ColumnName": "label"
+            }
+          ],
+          "CustomColumns": []
+        },
+        "placeholder": "请选择",
+        "noDataText": "无数据",
+        "filterInServerOptions": {
+          "matchMethod": "contains",
+          "loadingText": "加载中"
+        },
+        "noMatchText": "无匹配数据"
+      }
+    },
+    "8,1": {
+      "BindingInfo": {
+        "TableName": "客户表",
+        "ColumnName": "行业ID",
+        "GUID": "a81e6188-41a7-4bc6-be22-3ab4e2d6b211"
+      },
+      "CellType": {
+        "$type": "ElementUI.SelectCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "useBinding": true,
+        "options": [
+          {
+            "value": "黄金糕",
+            "label": "黄金糕"
+          },
+          {
+            "value": "双皮奶",
+            "label": "双皮奶"
+          },
+          {
+            "value": "蚵仔煎",
+            "label": "蚵仔煎"
+          },
+          {
+            "value": "龙须面",
+            "label": "龙须面"
+          },
+          {
+            "value": "北京烤鸭",
+            "label": "北京烤鸭"
+          }
+        ],
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "行业表",
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "行业表",
+                "ColumnName": "ID",
+                "GUID": "a2affe86-c344-488b-80d1-cd097ca4b26f"
+              },
+              "ColumnName": "value"
+            },
+            {
+              "BindingInfo": {
+                "TableName": "行业表",
+                "ColumnName": "行业",
+                "GUID": "4efa7af6-02a5-4e1c-9d4c-9e8ac794156f"
+              },
+              "ColumnName": "label"
+            }
+          ],
+          "CustomColumns": []
+        },
+        "placeholder": "请选择",
+        "noDataText": "无数据",
+        "filterInServerOptions": {
+          "matchMethod": "contains",
+          "loadingText": "加载中"
+        },
+        "noMatchText": "无匹配数据"
+      }
+    },
+    "11,1": {
+      "BindingInfo": {
+        "TableName": "客户表",
+        "ColumnName": "电话",
+        "GUID": "9370681c-3b07-49ce-a86b-b5de1967f58e"
+      },
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      }
+    },
+    "13,15": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor3"
+      }
+    },
+    "13,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "客户表",
+            "UpdateType": "add",
+            "ShowConfirm": false
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true
+          }
+        ],
+        "Text": "保存并关联",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 2,
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 2
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "#FFFF0000",
+        "Body",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "3,1": 1,
+      "4,1": 2,
+      "4,2": 3,
+      "4,3": 3,
+      "4,4": 3,
+      "4,5": 3,
+      "4,6": 3,
+      "4,7": 3,
+      "4,8": 3,
+      "4,9": 3,
+      "4,10": 3,
+      "4,11": 3,
+      "4,12": 3,
+      "5,1": 3,
+      "7,1": 2,
+      "7,2": 3,
+      "7,3": 3,
+      "7,4": 3,
+      "7,5": 3,
+      "7,6": 3,
+      "7,7": 3,
+      "7,8": 3,
+      "7,9": 3,
+      "7,10": 3,
+      "7,11": 3,
+      "7,12": 3,
+      "8,1": 3,
+      "10,1": 2,
+      "10,2": 3,
+      "10,3": 3,
+      "10,4": 3,
+      "10,5": 3,
+      "10,6": 3,
+      "10,7": 3,
+      "10,8": 3,
+      "10,9": 3,
+      "10,10": 3,
+      "10,11": 3,
+      "10,12": 3,
+      "11,1": 3,
+      "13,15": 3,
+      "13,16": 3,
+      "13,17": 3,
+      "13,18": 3,
+      "13,20": 4,
+      "13,21": 3,
+      "13,22": 3,
+      "13,23": 3,
+      "13,24": 3,
+      "13,25": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "1,1,1,12",
+    "4,1,1,12",
+    "7,1,1,12",
+    "10,1,1,12",
+    "2,1,1,25",
+    "5,1,1,25",
+    "8,1,1,25",
+    "11,1,1,25",
+    "3,1,1,25",
+    "13,20,1,6",
+    "13,15,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "快速创建客户",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//vaTZ9T+Md/nDtIEFDMuW7ul0Za+mDmsreSn92wYWslAldGzbpNJESdC44Qw1lGi9+sQsaNJiWbPH8yzBrf7613dhgIiZ8JqA5E0DqqZiD93LXAiF20RpmpyCl7wGXA7EO0ateETshYxmyBNCNargYurgTnZvELszfNpj2OE/9NtFU6ceVg9485iyQaRtOQxI8u4V6ustjWfQT13dfmH6Lb936PzTU0s7/FmU4wAQL0qj43K11qXn3fcDl8oBkow3PmktL3erwR5JlGZ9m1ZWTaEQjtp4E+B/mMRl7YARKlguQkI2o6w59OZBHBYbXSR3iEautIpu2ENrjc/0rV6E0Kml2E+2Y3cNI9R+ePad28sB/Ay89H4yD8ATe85tMfVZiOYTYiwcc6Qkj2IjyIXki4tP/vSJpqH5K8NLJZJWtN4HA6Y02WTkcyVMg9BxjKJd0C1N1QO+7Q0EU4pF8mhteQP6sCzQ8CdFhV3e7qZk/6m//TCEKiNxc38ee5fttCdkTHn6ZgFXUJKuiQiYJ26BQWMxs59AqtrIPY9zYtKOdRW0bwrkYWRgP3uk7bMRITg29G5hpBgBklP7jZFlU/YEeiPk4K40TR0YUMYd0wocWT4TDqB7nx3Ie9aixQkQfFU4P57XZ9y+7JMbm56RXhOFLRJg0kpZXSynYynf7dEQGjkAvlIsXzUNI43IFEDCojyluFYKbltgDLkh/ojPrZWH0Sh9q+WN3SZSzAygtARVdwBlPVjkgwhVEZg6FmaBdfJHzaSbQ0ZlPCXI1KEXx6nIhZ+g0/x0XBT5DNfRfK1mn50ovRBHKyakvb7sPehQ1mYgKO64mTA8POSKG1nqTLpHEiYNuYuHlgMlegsFInpAnIXr6KXe/BvzXUy46HGlOsosGC06RJMgghAmu+x4Pc3tXQ==|920

@@ -1,0 +1,338 @@
+{
+  "Name": "添加客户",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "名称",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "电话",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "行业ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "网站",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "客户类型ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "年收入",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "员工数",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "父客户ID",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "地址编号",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "详细地址",
+          "DataValidationInfo": {}
+        },
+        {
+          "Name": "备注",
+          "DataValidationInfo": {}
+        },
+        {
+          "Type": 1,
+          "ArrayParamItems": [
+            {
+              "Name": "姓名",
+              "DataValidationInfo": {}
+            },
+            {
+              "Name": "ID",
+              "DataValidationInfo": {}
+            }
+          ],
+          "Name": "联系人列表",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "客户表",
+          "UpdateType": "add",
+          "ShowConfirm": false,
+          "UpdateBindingValues": [
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "名称",
+                "GUID": "98be428f-f1f5-47e7-8048-3a7f551a2cb0"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=名称"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "电话",
+                "GUID": "9aa17a70-95a0-4658-8da0-c87f65f163d1"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=电话"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "行业ID",
+                "GUID": "7effa49d-bebf-4933-83e4-ca293a3adc44"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=行业ID"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "网站",
+                "GUID": "2f09b79f-5366-4374-bd79-9fc2e54e2362"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=网站"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "年收入",
+                "GUID": "5edafa6a-7afd-4b08-afff-135cba864d4d"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=年收入"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "员工数",
+                "GUID": "eaa33c13-bf04-4546-831a-5a2625a30390"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=员工数"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "地址编号",
+                "GUID": "3c1a2626-21d3-4c5d-8387-e8147a9fd584"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=地址编号"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "详细地址",
+                "GUID": "e28c1850-e066-47cb-9305-f79a86c9f75d"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=详细地址"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "客户类型ID",
+                "GUID": "be1e0148-cc15-4c47-a639-5a3c67974767"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=客户类型ID"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "父客户ID",
+                "GUID": "337012b5-044e-46dc-920e-1d157400ac30"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=父客户ID"
+              }
+            },
+            {
+              "BindingInfo": {
+                "TableName": "客户表",
+                "ColumnName": "备注",
+                "GUID": "16b03b5d-7e00-4b53-9b2f-4e0709909a3c"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=备注"
+              }
+            }
+          ],
+          "ParamNameToSaveNewRowValue": "新客户"
+        },
+        {
+          "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+          "LoopInfo": {
+            "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+            "LoopCount": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=联系人列表"
+            },
+            "LoopItemParamName": "添加Item"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "是否被关联",
+              "TableValue": {
+                "TableName": "联系人表",
+                "TableValueType": 3,
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "SubConditions": [
+                    {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "ID",
+                        "GUID": "a30f2a62-ae3c-4115-b5cf-66386ea33351"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=添加Item.ID"
+                      }
+                    },
+                    {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 1,
+                      "ColumnBindingInfo": {
+                        "TableName": "联系人表",
+                        "ColumnName": "客户ID",
+                        "GUID": "dc16d847-c152-4af7-b5bd-ef6b20dc8c87"
+                      },
+                      "Value": "%Null%"
+                    }
+                  ]
+                }
+              },
+              "ID": "8c574ee1175b4d839e10c63f63cff299"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": [
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                      "ParamObject": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=是否被关联"
+                      }
+                    },
+                    "value": "0",
+                    "compareType": 2
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                      "ErrorCode": "-1",
+                      "Message": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=\"联系人“\"&添加Item.姓名&\"”已被其他客户关联，不能再被关联\""
+                      }
+                    }
+                  ],
+                  "ID": "7c444e9f-3149-4a6c-b703-2d45036b8547"
+                },
+                {
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                      "TableName": "联系人表",
+                      "ShowConfirm": false,
+                      "RowsToUpdate": 1,
+                      "RowsToUpdateCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "联系人表",
+                          "ColumnName": "ID",
+                          "GUID": "5801b705-9f73-413c-be01-bbc96e07c7ab"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=添加Item.ID"
+                        }
+                      },
+                      "UpdateBindingValues": [
+                        {
+                          "BindingInfo": {
+                            "TableName": "联系人表",
+                            "ColumnName": "客户ID",
+                            "GUID": "1b4926a2-ace5-4334-ad1a-8f75c966d694"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=新客户.ID"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "ID": "c661d59b-56dc-4f91-a5a5-9497c6433079"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

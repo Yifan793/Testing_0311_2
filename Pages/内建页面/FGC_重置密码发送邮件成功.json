@@ -1,0 +1,192 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 54
+  },
+  "Values": {
+    "6,20": "重置密码邮件发送成功",
+    "10,20": "重置密码的邮件已经发送到你的电子邮箱中。收到邮件后，请点击邮件中的链接。之后在弹出的网页中输入新密码。如果邮件没有送达，请与管理员联系。",
+    "18,20": "登录"
+  },
+  "AttachInfos": {
+    "18,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_登录"
+          }
+        ],
+        "Text": "登录",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Text 1 50",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "6,20": 0,
+      "10,20": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "Underline": false,
+      "Strikethrough": false,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "6,20,2,14",
+    "10,20,6,14",
+    "18,20,2,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_重置密码发送邮件成功_手机版",
+    "Title": "重置密码邮件发送成功",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "c3859c83-0baa-4036-88f1-2d928cff0f50.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "linear-gradient(-25deg, #FF313949 0.00%, #FF4D4F66 44.20%, #FF6E6682 87.94%)",
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "1080,620"
+    },
+    {
+      "Name": "308d7bfc-1f3c-4709-bef6-bab10ea7ba3a",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "Background 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "340,80",
+      "Size": "400,360"
+    }
+  ]
+}//Roki2WyuXXgrNnRhPGxFmdVlXe2chj/L/hK1kQ7uu4+lIHQ+EaLHPiUR36xVsQx1XPRYyAXYWqgOYNXKNn+Dn+QAqIJAGFU1fG64b/4RyQXsx0OPEG5WuPWfVzh8UXlbs15sBIxfyfb1jRljKhHqTbh2NcI9efpfCV6q7DivgQAb9fKpWkyQKVnNm5mMd92QrMCv/QDXNf4Z12fLVHseY88/kFGvYCE/1YbsStm9nUi2/J9trOtp2R7fZM7IgDOlekRsRr+pumzpKwkRJn5qzR7wDZLmP/SXmVFSupAoEMiEMrg3s+3tmfEcGfG79X5/MSKO9ljzosEe7PsFqrGOjhVnEJM0PbarrxD9JaUDDhGKt+iPxQ92+/jvd7PGhS/Ksm92vGT4F/MV1d0JkGg14FLw9ggjX76gAkHzb+NTHjyBEY3iyDPGN3FycunmZh4Qa2QX1WTlA8DNv7o0oQGm+/PVU+dAoFIC/jx8To7alZGXtz3hvmBz2UjbBw8cVBNPtL1LOlzK+Gp5KJEt01LRnZZlU+C19lYIbD6+Apwa9w95HCD5krPpzaiE6jrnRdJihX144zG5/eZBA0/KJ75esIBS+ix5VpWY3pHvivSvRAXRT1uMYGYs2fg3CRzPeqy9wSlMPEoQY/hT0v4BXWMBFEkINmyNerYPJqSEjJzY0LBi4MLwuTM43dUbTtE4RPWzh+ge0cA+O2XfgIuleYr12/Qno/HP3VVwv1YvYyDQEuirPrWTUwjim1uABHAioZb/IVrHfXgnbCrsaH6FAxQHzvDCscf3eWkHCedT5nBmkyXyWjceE2q45G4umHm+rJTkBGcz761SdsBe5wSjndwNUiyRURAKS0NwNRx5sy7+7pfFn2fXp7ZKf3pPujNRREjPArk0EsuhbnquAA6VMrEa/g==|920

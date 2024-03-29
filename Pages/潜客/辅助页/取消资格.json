@@ -1,0 +1,275 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 177.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 197.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      6
+    ],
+    "Count": 7,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "3,2": "取消",
+    "3,4": "确定"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "ErrorMessage": "原因不能为空",
+        "ErrorTo": 1,
+        "ErrorToTargetCell": {
+          "SerializeProperty": "=取消资格!B3"
+        }
+      }
+    },
+    "1,6": {
+      "BindingInfo": {
+        "TableName": "潜客表",
+        "ColumnName": "ID",
+        "GUID": "171817b6-f495-4cb6-841a-6322ca58a9c2"
+      }
+    },
+    "3,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor3"
+      }
+    },
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "取消资格",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "潜客ID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=取消资格!G2"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "取消原因",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=取消资格!B2"
+                }
+              }
+            ],
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "返回码"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "返回信息"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=取消资格!返回码"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=取消资格!返回信息"
+                    },
+                    "Type": "error",
+                    "Duration": 3000,
+                    "Offset": null
+                  }
+                ],
+                "ID": "784da25f-f215-4ad6-a332-6d6d26fc521f"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "ReloadData": true
+                  }
+                ],
+                "ID": "3f2cdaa0-2fbd-4215-b31d-e96a89e9a2c0"
+              }
+            ]
+          }
+        ],
+        "Text": "确定",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 14.666666666666666
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "Foreground": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FFFF0000"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,6": 1,
+      "2,1": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,1,1,4",
+    "2,1,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "请输入取消资格原因",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//NlklSG78k6rYKsy1BQw6IZTeJKlEC9yKidPRqKViI0TXXwiCsWK4rIHNMmavUzfXqnkxWz0Dv78KTrfRYIxxMeOrN3j2tkxX5rYCwjMlMhJMWrpGA/0WdBQAd6Jr2Mjh6lQN2HdsOWfUWFjEe8Xo8dKvubk5FZJRregf/hD06gcuquqo6c+IXfmcDMPhGnsadIma07MfjK4qyQZZ1vxSqYCPv72zFm5GobQnybq2MH+L2vivjjDmWuRloL7i9vLSUqis0L9fqGXpg3uT0MLaoImSnc+qJDO/0eLSSnguvpyzmdcgQ+XUUmulyzbRyzK8dRHYIhDglOUtq1W0TnBbDH0xEIRNWceIZ5iBX8yy8EbcXJSgGz0gtCE0HGo2LGnSa+gRwVC25T9BMy5l2NCjnk1uHxw7zKzToxiYy0hWIDkDPFN39aSvAlKBrUoGPITyiElzcQ8RE0Q6vWlALzhd15+uCEwjQ0jy7DpF2VbSkrZ6XZEzQxoyYu+GuuhAW5oC6KolAwD95mS24P2RDaIZC+AXKLi6Igc/4UudJLmMQqzTkfxRJiN/vbeu3ednvK9M7kvVOqyEIypBv1zOx1FbgWFdM5SvRD4jZ9WccgIbHz9+0djep3bG7XEdEkBIFywnOZKq4qAjG2P+nLb7NICuMQbvb85Kdl2yWGJMj/+Ee8EsdizNE3ppgcM86pxr55/oF/NQPBE9PKqbt7DWq/Qi6hOqZJs5DKSu4+iRten2x0iNj6G0UA4dMcQApMpcy6XLczgGtCLhn8cIeWfV9fY2zSXjptsWhA64icy+A5jKGE0tkzaFC5EokPFdsWx5XpDMvkR5wZxVuwF9e7ooxHc58q65pmg38zskxWBxq/q69Vy1fUfnGQ523ub3R7DPUQRHknJnDoZQtV7BRU7M2RU5dg==|920

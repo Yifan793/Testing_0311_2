@@ -1,0 +1,165 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 54
+  },
+  "Values": {
+    "15,17": "网站维护中，请稍后访问",
+    "18,14": "很抱歉，网站目前正在维护，请稍后再来访问。如果有其他问题，请联系网站管理员。"
+  },
+  "AttachInfos": {
+    "4,22": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_built-in-page-maintained.png"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 34.666666666666664,
+        "Foreground": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Background 1 0",
+        "[AUTO]General",
+        "Center",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "15,17": 0,
+      "18,14": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "4,22,10,10",
+    "15,17,3,20",
+    "18,14,2,26"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_维护中_手机版",
+    "Title": "维护中",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "31b5c44d-e1ff-4feb-9ccb-c43006dd2d7f.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "linear-gradient(-25deg, #FF313949 0.00%, #FF4D4F66 44.20%, #FF6E6682 87.94%)",
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "1080,620"
+    }
+  ]
+}//IPdJJChysxDs7zPutSYstFRUBSwwOinGpVrhew/h961qQv4ws9JxmQVAjkFiyNXQFjsmCpwjldGk18CB6yeGlxFSf2rEc3NGBHJceP20gxaV83P7kTFXbFuDW8Wg8jnNZxp7kQHYveOs+nkTKDuoA1zmkyzC0e+052b0s2kU8WwgODHkkQgCMGlIhYadzns9fv92XrtzmIjvY43B/Mta1Gavjt++i0J+HQcG6CyuBaO5cLwoBxQXpqapnToETGY0/2G6oKuKy9giWBOeQwPWHpZIAgChqbETjbftIJYhYRBWuaBQJe2Wec1vcfHDykuihPgzin7FlTINilpKcKvtzMH+jTGJrqEBwWCMlSjiLZ94CPo186kpgZmBhi4YjpR++O0a6D9/BzPbTILEfM6vQDKEXamqlQ4fpMzwPPbW2AtncW7yJnKf9Sw0wTccot/4n+PAS0dBHuSpJL5vrUDGFPbaoavEOqsO/Z5iqfw2805jPGvHx/5cnsOJneArcfdBUZEXz8bD27lQLU7KOUhnDkQlnwO/RxPX760bk6AEVhBWw3y1g5pmxR65PEAj+4Tj6RKdICU65UIWX8TKEbB03sk8WIumr3WQldIADtkUFX/CGEK3xL7dEunLfysEfRsHRUdmyxQDsnYGXZSDbXX+1Ebj1///DIOwfn3XSCEixjW8SSuDivE8/rJ1xxF21oac73WHBzoQ6IPK71VAEyt6nIPZNcYyQbWcnvN3fJ7DyfbpH++CFjRn+4iTRXm/kd0CpXoFhDraCBEqhayZvdva+GREUg10dhsdOvshSmp4IFTuwgVQMLnIXjZ7mBAXIcrR1JTJ6hcBF2n5I+PEBvM6JgkhIK3AxJxFPuQFfI/vAexWcNfw8JPyfI7TCjY/xbNc465CWBaYHb6NjHbYVmvVnw==|920
