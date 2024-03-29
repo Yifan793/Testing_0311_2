@@ -198,7 +198,17 @@
   },
   {
     "ModuleName": "PCPage/FGC_登录",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-29T13:55:06.2391255+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\内建页面\\FGC_登录.json",
+      "Pages\\内建页面\\FGC_登录.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/FGC_维护中",
