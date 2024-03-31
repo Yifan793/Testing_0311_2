@@ -472,7 +472,16 @@
   },
   {
     "ModuleName": "TaskScheduler/计划任务1",
-    "ModuleType": 16
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-31T14:20:15.3576231+08:00",
+    "ModuleType": 16,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\计划任务1.json"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
