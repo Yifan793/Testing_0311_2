@@ -481,12 +481,12 @@
   },
   {
     "ModuleName": "TaskScheduler/计划任务1",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "1146602243@qq.com"
     },
-    "LockDateTime": "2024-03-31T14:20:15.3576231+08:00",
+    "LockDateTime": "2024-03-31T14:22:27.9004893+08:00",
     "ModuleType": 16,
     "ToRemoveFiles": [
       "SchedulerTasks\\计划任务1.json"
@@ -596,6 +596,16 @@
       "Email": "1146602243@qq.com"
     },
     "LockDateTime": "2024-03-31T14:22:15.6949615+08:00",
+    "ModuleType": 16
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务_潜客",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-31T14:22:27.900493+08:00",
     "ModuleType": 16
   }
 ]
