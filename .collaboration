@@ -259,7 +259,17 @@
   },
   {
     "ModuleName": "PCPage/客户列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "1146602243@qq.com"
+    },
+    "LockDateTime": "2024-03-31T14:29:28.4380423+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\客户\\客户列表.json",
+      "Pages\\客户\\客户列表.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/客户维护页",
