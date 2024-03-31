@@ -73,16 +73,7 @@
   },
   {
     "ModuleName": "Table/潜客计划任务操作表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:21:10.3213518+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\潜客表\\潜客计划任务操作表.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Tables/订单",
@@ -259,31 +250,11 @@
   },
   {
     "ModuleName": "PCPage/客户列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:29:28.4380423+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\客户\\客户列表.json",
-      "Pages\\客户\\客户列表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/客户维护页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T13:57:31.3037391+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\客户\\客户维护页.json",
-      "Pages\\客户\\客户维护页.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/客户详情页",
@@ -490,19 +461,6 @@
     "ModuleType": 36
   },
   {
-    "ModuleName": "TaskScheduler/计划任务1",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:22:27.9004893+08:00",
-    "ModuleType": 16,
-    "ToRemoveFiles": [
-      "SchedulerTasks\\计划任务1.json"
-    ]
-  },
-  {
     "ModuleName": "ApplicationSetting",
     "ModuleType": 8
   },
@@ -580,82 +538,34 @@
   },
   {
     "ModuleName": "Table/计划任务更新表",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:19:48.4705578+08:00",
     "ModuleType": 7
   },
   {
     "ModuleName": "TaskScheduler/计划任务_客户1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:24:08.1014795+08:00",
     "ModuleType": 16
   },
   {
     "ModuleName": "TaskScheduler/计划任务_潜客2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:22:15.6949615+08:00",
     "ModuleType": 16
   },
   {
     "ModuleName": "TaskScheduler/计划任务_潜客1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:22:38.0626286+08:00",
     "ModuleType": 16
   },
   {
     "ModuleName": "TaskScheduler/计划任务_潜客3",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:22:48.3719832+08:00",
     "ModuleType": 16
   },
   {
     "ModuleName": "TaskScheduler/计划任务_客户2",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:24:16.1864486+08:00",
     "ModuleType": 16
   },
   {
     "ModuleName": "TaskScheduler/计划任务_客户3",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:24:25.3431252+08:00",
     "ModuleType": 16
   },
   {
     "ModuleName": "TaskScheduler/计划任务_客户循环",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-03-31T14:25:18.8681057+08:00",
     "ModuleType": 16
   }
 ]

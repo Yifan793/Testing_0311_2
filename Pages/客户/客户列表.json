@@ -324,6 +324,7 @@
     "3,51": "查询",
     "3,55": "重置",
     "3,58": "%CurrentUser.UserName%",
+    "6,55": "前端删除",
     "7,2": "客户列表",
     "8,46": "添加",
     "8,51": "编辑",
@@ -679,7 +680,7 @@
                     "ID": "599d5d0fc87742deb8f54650177e8f05"
                   }
                 ],
-                "ID": "2def8795-8910-4ef0-ae84-a53d63ebd571"
+                "ID": "3d0ac1f7-0bc4-4330-b51f-170dd751e1b5"
               },
               {
                 "Condition": {
@@ -780,7 +781,7 @@
                     "ID": "f0ffcc149fd7461bad38b535b32d9c2b"
                   }
                 ],
-                "ID": "1c36ec15-2279-48d2-a884-547a578c9320"
+                "ID": "080a9daf-76a9-4c4b-846c-4e117df56854"
               },
               {
                 "CommandList": [
@@ -870,7 +871,7 @@
                     "ID": "1e18994ea2e047a3bda79f0fa03655be"
                   }
                 ],
-                "ID": "14b96613-ea1f-49e2-9a38-05184071fb69"
+                "ID": "6b3d1ba6-122a-4aa9-b60b-c20906112ada"
               }
             ]
           }
@@ -917,6 +918,92 @@
         ],
         "Text": "重置",
         "TemplateKey": "_RS_Minor3"
+      }
+    },
+    "6,55": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "被商机使用个数",
+            "TableValue": {
+              "TableName": "商机表",
+              "TableValueType": 3,
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "商机表",
+                  "ColumnName": "客户ID",
+                  "GUID": "d90329e5-0a41-43ce-877b-aab438f9faa9"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=客户列表!BG13"
+                }
+              }
+            },
+            "ID": "15c8be137985495395efc75cc659cf7d"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=被商机使用个数"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 5
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "客户表",
+                    "UpdateType": "delete",
+                    "ShowConfirm": true,
+                    "ConfirmText": "您确定要删除吗？",
+                    "NextUpdateDataTableCommand": {
+                      "TableName": "联系人表",
+                      "ShowConfirm": false,
+                      "RowsToUpdate": 1,
+                      "RowsToUpdateCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "TableName": "联系人表",
+                          "ColumnName": "客户ID",
+                          "GUID": "2b45e548-4f71-42c7-9892-82794260732a"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=客户列表!BG13"
+                        }
+                      },
+                      "UpdateBindingValues": [
+                        {
+                          "BindingInfo": {
+                            "TableName": "联系人表",
+                            "ColumnName": "客户ID",
+                            "GUID": "d53e890d-48f1-4b77-81b4-e66a0f82b87a"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "ID": "3e852189-ea74-4e6c-832f-8978f8653f33"
+              }
+            ]
+          }
+        ],
+        "Text": "前端删除",
+        "TemplateKey": "_RS_Main1"
       }
     },
     "8,37": {
@@ -969,7 +1056,7 @@
                     "MethodName": "ExecuteCommand"
                   }
                 ],
-                "ID": "f02736ba-b2bf-40d9-93f4-51847dce3314"
+                "ID": "3aea8d97-eb04-48e2-9969-8c062641eb02"
               }
             ]
           }
@@ -1166,7 +1253,7 @@
                             "Offset": null
                           }
                         ],
-                        "ID": "024d8a32-d361-4ad0-a531-4b13adbaa4c8"
+                        "ID": "1b1125cf-448d-46c8-99dc-49a496cf9f99"
                       },
                       {
                         "CommandList": [
@@ -1178,12 +1265,12 @@
                             "Offset": null
                           }
                         ],
-                        "ID": "07f70c50-75c5-421e-957c-fd8d9f6ebe7a"
+                        "ID": "63f1cfc0-1765-4187-a726-39f41fb61584"
                       }
                     ]
                   }
                 ],
-                "ID": "ba74738d-7e0d-4c53-9585-7e7347e62b72"
+                "ID": "1110664e-b70d-49c7-9671-e1b8b6059c2a"
               }
             ]
           }
@@ -1644,7 +1731,8 @@
     "12,26,1,7",
     "12,33,1,7",
     "12,40,1,11",
-    "12,51,1,5"
+    "12,51,1,5",
+    "6,55,2,1"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1750,4 +1838,4 @@
       "BoxShadowString": "1 0 1 5 #33000000"
     }
   ]
-}//4KHotPJ0qCEZAFtLofewCiGBXwe7rVspUoZaBCicZ2/l2YUUc+1IJaYr6rpRYq1JwhXFFVfEfsMc+3BC5C7xqy0skgTG2xeaIjBtjCaeAujDSBSnejuvnirKnUv+/cIejtsgNHAbHMXE3Yp3j6ORhrD4ROsyXeqHppxFDAAqDKSKdRuZcuFf2zn8jBB7dH+DUE03t5M2cr1UXkxElUgbzb/xRJ+6ffNQHtX6zKU4EFca08z4eK1NpW5oWpjc0A3tsDNhRi2t5RfD4+OiTSezNQnVf+PE01WA9SZupVjDg3AOu8ZkYOH2JVasTibr/1G0ZArk+zmh6b/ECrDcLm9TGLJvOXecdL0ZsF7IR7v+Ky+IHbybO+By+xkfgmnfi/6QRhv94eKlYODz1ZUzZNmwYLkBDjbQbf56a6MeuWxIeV3CZmbswHFNe4kJWiGzmjp1xeMBNbIddTrURKdUpYmQoBuq8PGWYBVgrLBBI8xPSDUxeU+HLwbzmTforwIlUUJ7gCAv4QfkV3CcBx3ZAEUUUM88CcAgjIpAAvQzIzQBbTFaLZMV0YXMxb+c87MntUlHzwpsWmM0vC/zONifPFNYh47iHxwNFCTEh71Z6K8FiQnV2CWDk9+DnAZHRt2jqwdXTPLu0m1Gj2TA8kKmROx8bWdQVYm4JuzUBngNyehkyO8eYcQH31mRLgKXcV4n3yCN+dtjvWAhag4wEXa/+CuLoCKY8rJlwv3DDFO8ypwqd1YwD1kMe9JXBugde21ioZel2cafCQQird3S0qsswCrHVLl1CSohp3Zh/DggwAlfQWyDLaMy3q+XxaZvwduthAJoj0jZ6I+72p5G4U99TXoUYAalMlJs9sfSJ8kd4DE+cwORlNw2tilah+QnbR4Q0J64HXsXoWEKlgXEg2vOHed7qQ==|920
+}//F03k6o0DFyBlpNt1xmbyuOiPHodztrpI1FiVnsIgZfYGlo5fl3aqDIo7yPmBdP7RodBK5y0mG4IED/TwQ0y/G24EYCZ9itGz6+PuIRemTMfhWk94o9Z8HSQejb/aKnDnIyGs90pPRruYskYHH+R+90AWePT/lvtXq4Sah5E8t6TGmQSCVCeoLz07HH4R946UE6+q47RcOMLDWKV0jJN6Q8xVtJSw8q4XOCSaosCTQKPEzCAhdq9vlCPMytdzgHtpo2VkB3rJVb5O1+/zx5S3ipYDmGAVPAFdk74qCQXBE67JqqeTh4HlyIWd1euRayc1xpXJgUggzOzv+g5+3YtOmfS3p4RhvdIRZumMMR8kd7iS5bohK9jn862Hkkj9vXCL9MrtPVoc4i5QSCr0gHl36COF9yRDed5yKD+AhEpn849ELuCX6R4+7kTTxKuEWu+IJ2Oz1iT7AQU53GArVfp4+tdNNxrq4Np8XFeW5/lUQb+ohs2jSP0NqfpT+VBKW84wV0vtjQG5xD2G43cy10ovRSVsnaT6ESKul1zacYgCk1uvS9qb5jCQjcPnxWKaZFN6yB9qcodhaUdOH1gop6xp4lpzn6Zw1Noy05QFzuclyU54nEYleNMBSCdKNY/XPgTBQErWch0HlaEci++OnNXd+Gxr80gee0RASAlmjx5z7A8m2juhNwtCyYDot5xboaOPHgSIYXm2FTKrXc5/XoL3drE4anyYYHcwHGPbgkdBh+j/ygox78ikxwvatyl4xLOJ0WnHyLMws+LsMRRXk/FTZu6l8F2uis/2ws9Obo5AcrEAmzaxT48ZFMx8492IMpSThHlke/A2k0B8S3NlYQsKsIC+QCoecWuy1fTF7JpXzv9mKCMfXpjq699oy1NtOKhlSnJiQq/wRP+i2fjeOmFAqA==|920
