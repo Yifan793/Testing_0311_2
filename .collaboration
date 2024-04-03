@@ -605,12 +605,12 @@
   },
   {
     "ModuleName": "TaskScheduler/计划任务_客户循环",
-    "State": 1,
+    "State": 2,
     "LockedBy": {
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "1146602243@qq.com"
     },
-    "LockDateTime": "2024-04-02T18:37:25.0768574+08:00",
+    "LockDateTime": "2024-04-03T15:22:38.6893274+08:00",
     "ModuleType": 16,
     "ToRemoveFiles": [
       "SchedulerTasks\\计划任务_客户循环.json"
