@@ -250,31 +250,11 @@
   },
   {
     "ModuleName": "PCPage/客户列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-03T10:34:33.7801327+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\客户\\客户列表.json",
-      "Pages\\客户\\客户列表.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/客户维护页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-03T18:07:30.0293123+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\客户\\客户维护页.json",
-      "Pages\\客户\\客户维护页.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/客户详情页",
@@ -526,18 +506,7 @@
   },
   {
     "ModuleName": "UserService",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-02T14:25:55.295974+08:00",
-    "ModuleType": 11,
-    "ToRemoveFiles": [
-      "UserServiceDB.sqlite3",
-      "CloudStorageProvider\\data.json",
-      "SecurityProviderV2\\data.json"
-    ]
+    "ModuleType": 11
   },
   {
     "ModuleName": "CustomLibrary",
@@ -557,16 +526,7 @@
   },
   {
     "ModuleName": "PublishConfiguration",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-02T14:24:01.492932+08:00",
-    "ModuleType": 39,
-    "ToRemoveFiles": [
-      "PublishSettingsConfig.json"
-    ]
+    "ModuleType": 39
   },
   {
     "ModuleName": "Plugin",
@@ -578,16 +538,7 @@
   },
   {
     "ModuleName": "Table/计划任务更新表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-02T18:39:13.6432345+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\计划任务更新表.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "TaskScheduler/计划任务_客户1",
@@ -612,18 +563,5 @@
   {
     "ModuleName": "TaskScheduler/计划任务_客户3",
     "ModuleType": 16
-  },
-  {
-    "ModuleName": "TaskScheduler/计划任务_客户循环",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "1146602243@qq.com"
-    },
-    "LockDateTime": "2024-04-03T15:22:38.6893274+08:00",
-    "ModuleType": 16,
-    "ToRemoveFiles": [
-      "SchedulerTasks\\计划任务_客户循环.json"
-    ]
   }
 ]
