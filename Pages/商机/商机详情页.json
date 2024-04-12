@@ -425,6 +425,7 @@
           "TableName": "商机阶段历史表",
           "BindingInfos": [
             {
+              "GUID": "787d2c48-a3e6-41c3-b612-98af56ba8cbb",
               "BindingInfo": {
                 "TableName": "商机阶段历史表",
                 "ColumnName": "阶段ID",
@@ -438,6 +439,7 @@
               "ColumnName": "阶段"
             },
             {
+              "GUID": "5dd1e59e-6a34-4493-bb00-b1e0f5260cf1",
               "BindingInfo": {
                 "TableName": "商机阶段历史表",
                 "ColumnName": "预期金额",
@@ -446,6 +448,7 @@
               "ColumnName": "预期金额"
             },
             {
+              "GUID": "6c589983-b98e-45e4-bc3e-3aa441c0ebb7",
               "BindingInfo": {
                 "TableName": "商机阶段历史表",
                 "ColumnName": "预期成交日期",
@@ -454,6 +457,7 @@
               "ColumnName": "预期成交日期"
             },
             {
+              "GUID": "881c4c1e-79b0-45fd-ae16-d4be2a249da6",
               "BindingInfo": {
                 "TableName": "商机阶段历史表",
                 "ColumnName": "可能性",
@@ -462,6 +466,7 @@
               "ColumnName": "可能性"
             },
             {
+              "GUID": "48f08686-e6c3-4afe-965d-917b45d5d416",
               "BindingInfo": {
                 "TableName": "商机阶段历史表",
                 "ColumnName": "FGC_LastModifyDate",
@@ -1268,4 +1273,4 @@
       "Size": "568,808"
     }
   ]
-}//XC2zMif3uMN/aW64rLoc9KXCq0dq1h1sbJXfxmm1/MvH0E//U4IRemSreUTSS/mGrMWZMzhcbWQ3KtDNLgZ40u+YANU2il3PJ7b1kNRHlsvgXvqiZVHjUnpFSqxdvMc8CakCP6xHKT70S51aYmgi6h30l9uzQ+yOqOyKh/b0pCX+a+4AKooIr8Q9XPnwmq4nWG7s1qupU02awQeLQF7qaZhtZXhXhiHt2Kmz9xTwjkjh/t/M5NAOjpvMdXTE91kW+okzOpY03RykKaM3V/ywNkVJz13Y/mpJQCFRDpyx/747IXTmcVUK9VVuB5k7Zdn0AUL1JTKjQowV3rqNmxbrqOFuIOxclr0rtwU4nFTyflQzg5JIAbNEDnlMAcYMpHxJTzOKP8ddxYCaCHgpndukU4uDtBWX7rXGJcKz1PkO8utPFKlpZW8xq+9prFEUdVJyoDGd3Dm5pTn/GVVkDJaFNMgP8UYvaq2HiBnUPy4DvhXAjzaA1ijR7NxSFNbwDp5kaEQh/JVQEfbhxj8Gl0Rd8xdcSEEl5F4WbE5EzJawl7Alh/YMGmXvP8ufEFxT1IbXdUfqnEemRIzG0slth+h3hHifcoXorqWNlD6tAtDmWlaEmHQ4WbiINEMvjEDga0+wGXAhxaohArYpufBLG/InQBdLHcJ6jCjxC8lTi8DmU/xjeYFnKcTQt5prD9rJr54H+WssTvzB0EBiSwAZidrA1EOA+Gk3fQc4iCk1OMcfgpnqoPsBqIT4KfdTefUvklgY1U9ExwNjIP1DWRWsWPl7nbYTzLUwRJcKXd3kULOsg7/vHsHZriBazOVSXLefm1NrAWfhvmtgQicoAoRor1j3it0dnqWyOmSgg086pOMlRxOzVMsVoke0tih2ko4FJQ9RgxX1qkMcX9qwR07kdbNMow==|920
+}//XArG7NGvnFoslYvj+r645ieJAlCkoug+FxTj8c/12eyM0JMqipnqe0yCVL/zAqLx5YDiNTgAkTGOq2hm0C02W7mnulhWmf7lO7I+uH+n5wbbctYRbQVtzj+C5C+A2GRr8v7sNTioKFaZIH0Jxpn9mUP2mre6EMGWe9440wXqdCXBTjmujfXyOvDspex8FN5JHKzP4heV4PI71Y0+QjfBFRo2v9//5B4dsIGZyCHNcG5bw649ljCUM3CZn4AnqIMWIzhTYOeUMi77USr1OSxPDkopWREKY7iaXqNtV5C4nrZ9FoDQlHCnVlrop+CkrfOwwafcvmW7K7SUGHa6TGy5o7C1f1OZbDPaLdTKSTFWONuEwwZJKSo9iBKkaF2hTnFvnLdVsjMFHnslpqee4aO4OLuzzSen7ZM4dYI3UqiKsHgndxGeaCHO2kGXQT3IX8pJGO/cvG9bsZkfp7nfumLqD9KEHkRBHVqHgM6dzxzvFklwlJB4vztlkqOkZo/VxmNsuR1h44XFJf12RaLPHV4sHwidE3p1UpVeDjZYcRQuk7A6Xs8rB3BlK0USR4wW4lm0rteeVYKs75twpLH+RM4xW9do+uic3zQtaib1EM/zg35tzKwaXOlnb5tGWoCG7enOCNyv1K0jbwKDGtJPuTRiZGzbZf07wDndfEuBvKppQjJ/2sNI81JXjItDlbqMtMi5TZoCvAfkC4an2w1I2ANyb1cLk9UUXHy5S+6O2Prq3ICA05aa9Xjng+UhuvcMcF8UPvMzbOIQfI+jiKeUgcC8WiqWzLcGvqki2O+TWlMWsY/d+WunkbvdiFSdRPnHWbrrQGJ6maYWxAP0F3J2ut0kkc/0o06MLkXpRXwcX0sKETO6FJO01llNnodWD7nBpGLu6YOEUlOqa5xeKD1LDaVDVA==|920

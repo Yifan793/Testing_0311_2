@@ -41,6 +41,7 @@
             "TableValueType": 0,
             "BindingInfos": [
               {
+                "GUID": "164ef1e0-26f0-4302-a97c-ef6345079a8d",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "负责人",
@@ -87,7 +88,7 @@
                   "Message": "当前潜客已被他人认领"
                 }
               ],
-              "ID": "97bf96aa-ebb2-4ae0-b559-1b8aa94ce310"
+              "ID": "02bb7004-cfb9-4cb1-9ddf-3ba84847c4f9"
             },
             {
               "CommandList": [
@@ -155,7 +156,7 @@
                   ]
                 }
               ],
-              "ID": "b914ebfd-5bd7-4098-b1b7-88b115230bb7"
+              "ID": "9849679f-993a-49fc-bb14-36093d94995c"
             }
           ]
         }

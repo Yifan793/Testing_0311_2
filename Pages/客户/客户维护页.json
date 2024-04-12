@@ -642,6 +642,7 @@
           "TableName": "客户类型表",
           "BindingInfos": [
             {
+              "GUID": "68372ce4-67ba-4652-bc21-e4c06a35de69",
               "BindingInfo": {
                 "TableName": "客户类型表",
                 "ColumnName": "ID",
@@ -650,6 +651,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "aaa71280-668c-4a5b-b238-61ffd831d2cb",
               "BindingInfo": {
                 "TableName": "客户类型表",
                 "ColumnName": "类型",
@@ -727,6 +729,7 @@
           "TableName": "行业表",
           "BindingInfos": [
             {
+              "GUID": "834156b3-5053-4810-a798-9381240955f6",
               "BindingInfo": {
                 "TableName": "行业表",
                 "ColumnName": "ID",
@@ -735,6 +738,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "82fc27e7-ed42-4a10-b21d-af25d832283d",
               "BindingInfo": {
                 "TableName": "行业表",
                 "ColumnName": "行业",
@@ -930,6 +934,7 @@
           "TableName": "客户表",
           "BindingInfos": [
             {
+              "GUID": "a69c8a3b-c9d8-4237-b9de-6bec866002d1",
               "BindingInfo": {
                 "TableName": "客户表",
                 "ColumnName": "ID",
@@ -938,6 +943,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "d3569bb4-8228-41ab-97df-51016c7d71cf",
               "BindingInfo": {
                 "TableName": "客户表",
                 "ColumnName": "名称",
@@ -1320,6 +1326,7 @@
           "TableName": "省市区表",
           "BindingInfos": [
             {
+              "GUID": "f8fbe904-9b09-477a-9aa5-8ef40829f35d",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "编号",
@@ -1328,6 +1335,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "bc0204a7-6a01-42e3-8538-c7e9c412b8cc",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "名称",
@@ -1336,6 +1344,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "a7eedd18-6b90-4502-8ac4-d91693ece40b",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "父编号",
@@ -1516,6 +1525,7 @@
               "TableValueType": 1,
               "BindingInfos": [
                 {
+                  "GUID": "ca75f38f-bd3c-4529-a8b4-23704547159a",
                   "BindingInfo": {
                     "TableName": "联系人表",
                     "ColumnName": "ID",
@@ -1524,6 +1534,7 @@
                   "ColumnName": "ID"
                 },
                 {
+                  "GUID": "d013cceb-a0c2-4c13-9beb-7b5bad7f13ac",
                   "BindingInfo": {
                     "TableName": "联系人表",
                     "ColumnName": "姓名",
@@ -1532,6 +1543,7 @@
                   "ColumnName": "姓名"
                 },
                 {
+                  "GUID": "d672d538-2ff2-49ad-a68b-5af3587491e0",
                   "BindingInfo": {
                     "TableName": "联系人表",
                     "ColumnName": "职位",
@@ -1540,6 +1552,7 @@
                   "ColumnName": "职位"
                 },
                 {
+                  "GUID": "316c559c-ce11-4ea6-9124-857ae5c50ba6",
                   "BindingInfo": {
                     "TableName": "联系人表",
                     "ColumnName": "手机",
@@ -1548,6 +1561,7 @@
                   "ColumnName": "手机"
                 },
                 {
+                  "GUID": "8665c89b-457c-4770-92da-0a19adfdbf29",
                   "BindingInfo": {
                     "TableName": "联系人表",
                     "ColumnName": "电子邮箱",
@@ -1556,6 +1570,7 @@
                   "ColumnName": "电子邮箱"
                 },
                 {
+                  "GUID": "89251653-a743-448e-be9c-879734d1a597",
                   "BindingInfo": {
                     "TableName": "联系人表",
                     "ColumnName": "微信",
@@ -1698,7 +1713,7 @@
                     "UpdateType": 2
                   }
                 ],
-                "ID": "5eaf57c5-03cb-4a39-80fd-6cb6ace0dad4"
+                "ID": "20eca792-3d83-4529-8b62-3144a910174b"
               }
             ]
           }
@@ -1950,7 +1965,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "57220477-a4d4-46a7-9df6-f032eee9d1e2"
+                "ID": "d24f0a39-7e98-40a5-aba9-7dd650875600"
               },
               {
                 "CommandList": [
@@ -2072,7 +2087,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "dbeea253-673e-4bf2-b357-6ae2f663bdf1"
+                "ID": "a4798720-2f50-43e4-bfd7-c5364ec2cf7d"
               }
             ]
           },
@@ -2105,7 +2120,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "4f5ff7e5-94c6-4468-a4ab-3ea032391df5"
+                "ID": "3e27ffe1-b63e-45cf-b5cf-3a91b6120021"
               },
               {
                 "CommandList": [
@@ -2137,7 +2152,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "69b26f18-c06f-44fe-8327-2186208fa740"
+                "ID": "37ece2c6-09a2-4d86-a091-6e76b26f5da8"
               }
             ]
           }
@@ -2294,7 +2309,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "03773560-ecc8-4e32-ad4f-20103620799d"
+                "ID": "bc275945-b2b7-4507-b033-3fc553d422a1"
               },
               {
                 "CommandList": [
@@ -2416,7 +2431,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "22d9501b-0a49-4c02-9512-abeb81a8aa0b"
+                "ID": "28750998-bf82-4efc-8af8-d4b0214c6527"
               }
             ]
           },
@@ -2449,7 +2464,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "e138c24d-f409-4d41-9616-604ea7283f7e"
+                "ID": "84744a07-e067-4897-916b-7d05a6275afd"
               },
               {
                 "CommandList": [
@@ -2465,7 +2480,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "868bbbe5-5ae3-4c65-b674-73137f18302e"
+                "ID": "b4cc707c-9c14-4af1-8921-47e6ee055fb0"
               }
             ]
           }
@@ -2564,14 +2579,14 @@
                                 ]
                               }
                             ],
-                            "ID": "e1166ea0-b2af-4f0b-9fb9-01e89d9663f9"
+                            "ID": "ee3fe481-efa9-4c3c-831d-ee25032d974e"
                           }
                         ]
                       }
                     ]
                   }
                 ],
-                "ID": "a19c3aa5-dbf6-4918-8a92-a39f73a954fa"
+                "ID": "bb870e93-9567-4612-9473-9c0716a3db0a"
               },
               {
                 "CommandList": [
@@ -2644,14 +2659,14 @@
                                 ]
                               }
                             ],
-                            "ID": "222a3058-1cf4-4b78-9dec-a950730333b4"
+                            "ID": "4d269ad5-9f57-488d-8c3d-eed28812cbed"
                           }
                         ]
                       }
                     ]
                   }
                 ],
-                "ID": "aca72289-fc1c-44be-9e27-f1fafc2b90de"
+                "ID": "20683c67-aec9-4f05-aacc-75b32a188c2a"
               }
             ]
           },
@@ -3762,4 +3777,4 @@
       "Size": "840,1036"
     }
   ]
-}//kQz1H6O2/ww6SwBxHMPj6X4bJsMN72pmk5pewk4DTY3x3AlvliZFtWfbP0qhvqsTwxZWptA6SRWxoOuAxnWgzkT4R2e8mxtqW1Ai9Jdl1bt1oKYBU4Vk/iKktkkl6qkXLJUtzMSrlvo3BcJ70ygucYu4UYZVQ4sB0DGOWb+UEWIgjsLGWUtfRS+5E3zwL2qYNGW/oA7IjuHMS5LgFaXs5iUf19w3Nq+4rLgJVjHtmJXWrI7FnOAttqGX4ytA9q418qmlhQknv2eFdFozKNbjuyusjWPpHfeXpsoyG+vnCjR3gUxKnWSoAhd9xMOOIAIBielIDJbCSkv0PkzDeXWWPEFr8d6e6/yKSW+e6cWLNMmP0BZYmTDVy6m3b8QJKvtNPKhJeAnRob4m1k6nR+dxXzlSerDudYCSF1jkqaU5cUFxXNHm/KOTP1gM+J7dWieVdzx5T/PKY9QV2mnYN7uN1X+51VmCcEF+wew5DsY2mWY22LbRFSDvth2UPRAWug0DTNYujuoNFDNwA5Bjsfh+94mMRudcCHUA8+CPLATUOXdPDMjzfb3fE6AA/J6EStlKLh0s6kEme3olWwvpYu/7ZIMa6533+oANfln5nEACb0WjkbE29n3a0tpaW0QIQTG2m2XX2M5/y7jAOx2YTjUPGHsZT1NozQShPcgv1YzS+goTCt068x2m43G3nNuW9OHq0ox7nUPok+Ky9rLlkCGc3dXBjSm5TiK5YruIKznThPlaU2pHhRFqwKdWGezaziZMqpiN3c7attxzqHR9Ej/c6PQAsi7e2SKWStwZ4WP5IyLJWYZwrAB9fueDJPT2qlr+Gl6ng/lwinlIAkbgosxbh0ltpUg/JmvyeaEUgQV0vJCaJrliIjtbm11yq1NOyrrlmj5IIiwOqiZznCZdl/zzHQ==|920
+}//6a/z+wbz7anzl6KTlc2NbwnreqlEaBZCndzNABBE6TDdktl9fPKkLBBsx6oEQOyzXYtaFbPedEuWQ/DC9fSQACgZeYxWsKZakwrGqCrpXThrW+MS39s9qyulPHVi8EvK/5/PFOHywF8USn+iVc9yMgsYbKSzW3ePOzS3SlDnxEvs0cUKuk81kKPF+8dkemi0MvSAwAEc/6lUS9b4FoRFVx2paXizIyjOu/x6yjOEg+GZmyxFoc/mDj17Xoei2Jdhu1bIywHpoltNLK9Fbi0Q13z2dZSyRUf31gZ/tnPP+f9faj6ft6pi97LNTlkkZAb5OMQp32P5QpelSyzmaLoUik3RBoDkxXTfW+HmXwAD0uGeUh0cY+7B/P4wBViyXExZAsaLIrROkXhe6AIV1pS45iauHa/h03zUEEV/r8PTSizp9g9P7IhAZpqdqEW2/U4XtCVXVRwV8h4GNYSAf/0RMOf+VUIrQhe54twLNdcnMC9vZrygpOIFQ3BL1/y+KycVquGToVo3f3G2alVnHaDXsCYFZyVtUz47Zy9VYIHKag+dzOWQYL4M7RmOaaPuZDbNaCq5//q7nNPn4TpGsEs8WJNnnWGfMcJCOE8RRGHDX5gOmCSa1NNwo1QbCspCZyz99I4Nom+BTdt6nxzV3Dy3dcvZBqJCXacVrggECz3XXJtyelsZuhG/mhwjOIkkM59awv4eX11xJQgTftW6M9iVkpiwb5Uy2QkyQR1GWeTx6/TbkmnAW9c+fOfClcAM8Nl5mocPQoOCbvv57Q6Vlf99NvKQDFBKF9FzmWEIUDp68fvs/nxE1v9DGJ7d7I35Iy5O+wzkOfn3pzI9ulwNpft7Ynx8XiIQwCwsrSGHXeh/viovHR6j5N3Avw50uWwIdkIe0PIygpdBXHWcJ3JdPJqt6A==|920

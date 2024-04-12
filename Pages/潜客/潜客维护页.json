@@ -644,6 +644,7 @@
           "TableName": "潜客来源表",
           "BindingInfos": [
             {
+              "GUID": "1023b8ae-e185-4027-91d7-50470555c089",
               "BindingInfo": {
                 "TableName": "潜客来源表",
                 "ColumnName": "ID",
@@ -652,6 +653,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "279b9b6e-a7f3-4916-b5cf-a6fb830128d8",
               "BindingInfo": {
                 "TableName": "潜客来源表",
                 "ColumnName": "来源",
@@ -723,6 +725,7 @@
           "TableName": "潜客跟进阶段表",
           "BindingInfos": [
             {
+              "GUID": "92a0d56f-3baa-4161-96bb-95b6f4cdf250",
               "BindingInfo": {
                 "TableName": "潜客跟进阶段表",
                 "ColumnName": "ID",
@@ -731,6 +734,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "9b8e0126-bf7c-4f37-a60c-b4dd5ac27b8d",
               "BindingInfo": {
                 "TableName": "潜客跟进阶段表",
                 "ColumnName": "阶段",
@@ -801,6 +805,7 @@
           "TableName": "产品表",
           "BindingInfos": [
             {
+              "GUID": "56958eae-9bea-4dba-a749-f64caa136db7",
               "BindingInfo": {
                 "TableName": "产品表",
                 "ColumnName": "ID",
@@ -809,6 +814,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "aa787222-e7bd-4745-967c-27a5bcdbae05",
               "BindingInfo": {
                 "TableName": "产品表",
                 "ColumnName": "名称",
@@ -885,6 +891,7 @@
           "TableName": "行业表",
           "BindingInfos": [
             {
+              "GUID": "104ac227-ef03-44e3-95cb-e30596062379",
               "BindingInfo": {
                 "TableName": "行业表",
                 "ColumnName": "ID",
@@ -893,6 +900,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "feeef1bb-010f-48a9-900b-658a26620e96",
               "BindingInfo": {
                 "TableName": "行业表",
                 "ColumnName": "行业",
@@ -999,6 +1007,7 @@
           "TableName": "客户类型表",
           "BindingInfos": [
             {
+              "GUID": "698f3530-51ca-4786-af83-3c149fe86c13",
               "BindingInfo": {
                 "TableName": "客户类型表",
                 "ColumnName": "ID",
@@ -1007,6 +1016,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "bc7545f4-8bc6-4158-b6e2-2a55447164e5",
               "BindingInfo": {
                 "TableName": "客户类型表",
                 "ColumnName": "类型",
@@ -1441,6 +1451,7 @@
           "TableName": "省市区表",
           "BindingInfos": [
             {
+              "GUID": "fd3644bc-71e9-49b8-9c9a-6d7ad3de68e6",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "编号",
@@ -1449,6 +1460,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "f7ea0985-28f4-4d57-b392-387e96b58bf8",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "名称",
@@ -1457,6 +1469,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "048442c7-b3a2-400e-acb6-3f05fbaa0ad3",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "父编号",
@@ -1799,7 +1812,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "32780cf8-e360-45f3-8eb2-a29d642702cc"
+                "ID": "f50c0316-90d5-4144-9b28-fc0fda84b15b"
               },
               {
                 "CommandList": [
@@ -1831,7 +1844,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "85117d69-a50a-44e5-b927-88b8c6c5b155"
+                "ID": "a39f32b3-7eef-4379-a1e7-c8bafa6ffb47"
               }
             ]
           }
@@ -2031,7 +2044,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "0af96490-0988-411d-a843-29ecab2d3c23"
+                "ID": "181527db-c93f-4fbc-9e46-52cd4831ef68"
               },
               {
                 "CommandList": [
@@ -2047,7 +2060,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "3bb8dee2-455f-40a4-9cb0-b4f07e1abd10"
+                "ID": "8322a859-e6f6-4f2d-b7b4-5a043c263678"
               }
             ]
           }
@@ -3243,4 +3256,4 @@
       "Size": "824,896"
     }
   ]
-}//xfKbf/X5Kb1SbCR9HbZ0Uh06Je84qEBgeXRIFDHh9ZVzbJSwr4VWidj54bqiMijUgsybQ+NiUoebGAZizsJ8P68SJhPMUSSLmWnkOlhWhw9u7TptHRkQVmrIMAJov8lrYhNPGrc7hU4Nw+PgVmoPolU+yxxNAw2NVYy+QRJyEARpuZXMgF4Gh7FYw9bZruPjpJDrtJOp/c6j5OteODV6svY3oAcdZPlkGoH6jzeWzqvVmqOazOZw7INuz1LSmDWHpSJ087jaXqJXS7UkWkd1/ek6zOqKEM8JF728aPr5VWVePSu2nd/1qgw5ZLZSCqRIMR2lQXXOZW7wyXzDyUgQO/ksd5cd4mAnLfzec/RPfyYtGdmsLJo+RNWGw8LznX4eHrmtY8f3wOhS2N9lDnV3iFJfdeu9juz6X8qCcEHO1QqcL4oPWNXfvveNxJJvMFEIZGmEPcISvKejfctfoF+obGv+JQeJmxj2OwsCMtwunmIjAd1xzatSq+9y1O1Waabtcx+K3ci3Lc39R3eGSQ96CSm6WR8AY+dDJflLON1zALQ+kiJiQfPMXZ9JpBSCgwpfi0vKcoWjR7gf8/SAHr+nsfRDAMBptQDTtqhR7erUuVCA8Oi4i5sLnI43GSlBBDVeWedsf/eTyjYcjvZTCM1DQtgvmlDJunlt2NSEFWfgXSEOlpCqyWR4ip46xnYHbg9CSyCP91diRErwlWGi/1zAhK+sDXLRVK4gxjh7y+Pf+lFWZZbHWwCOQl9ex5yL2vPIgnYA0KRoz/9WJoxCEn9y5iMFYbLmnF0kqfDO6A7/NZpI7ji60CZvGnAgK4FTKLYtHuCwsn5G5N7aZaUTfJPUJmdlXHa3TPrVgKFy3eD3B2Ssn7RIZRg84mWbJ2zu/l9dqGaixXFpwrXzD4eovhYlJg==|920
+}//jwABKtzsq3oTFgKL5xdBpd8cs6kyBkkJL7o8VufIahF43tbzM7/YUIAcKzOA4QrDXvDFZ62BpGvLPUSAuZGkKYLvx6SdOTZVkL7kXFi8DjEaLf+LbHAxPdao0+1z0i6YEAre6rrwHZZr9A2s1yhgA6V23wtuUZFb8LkPXJNjAtQDvjcFxLmJpibrPgtdvoQFXvuUo3noQvviM7w2q5u25HE4Qbk0CpgKaM415MRw4ihHd/9PYYDrUe7knNGd2DPWigPJxW1YpSsQNONF03/NHJ3tiXXiSiaIal4guNlb26BJynlgp3J1qt9bK25JyzesKHVDkO4B7D7ZSX3HBdQ15g7sPq+yPUQpD1nKzW6NwNxYkrgXMpqT2Ypu27k3hX6iiDb4slwYiqf4/clP6vwZl/JbP55D0tCf6M/swl9B+Oy9WbYJAxV/miMpKOV/aT/jJNrSxJFNIRi4Zv0oiDNPW5NDitZDKk+SAiSSiMJS+5LhoprE6JQikz+OpfKH0b3xsH9/VBGFvl6UXKL9WJpd69RA90WCRWRX/3kY1BJwNGDHWZFNnxp6o2L9PuNYqlUnrMdYlrNu5KblHfKF7QHNmJGui+ESQ6bbREaSUtBJKnprdd16PaXCh/f1Qlnl3kJHx2r5QA/NyXxDMf8nBPoVbbToq3Df03D6lyZufmjSpzLA/hb0miKjBuiVzMPVpurxdh37vWZhD4drhBklRqvGmVhZ113FfPba7P1WzgBqDHn3mGO5wqyMSdq572mNyF9Rm6p/WTcNNzN4rli7rvacR+//9ApLQT3ZnCfVLuDu7msnPuhEZ4OM0Ig27I83FeXTVSeDksis/Gl5JIBZNHCyKX5Jp9Q+b6YuYjru/7qDK2PpRuQBeBcBeUFTIBQrGMfzP7luukCagbzvijBLOrph9Q==|920

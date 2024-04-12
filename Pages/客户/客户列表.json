@@ -347,7 +347,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=客户列表!AU9"
             },
-            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand"
           }
         ],
@@ -428,6 +428,7 @@
           "TableName": "行业表",
           "BindingInfos": [
             {
+              "GUID": "7d7ae94a-9413-47a4-a3e9-a5dbadf35252",
               "BindingInfo": {
                 "TableName": "行业表",
                 "ColumnName": "ID",
@@ -436,6 +437,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "48fbe4a8-d656-4d25-bb88-2263ce23e6d7",
               "BindingInfo": {
                 "TableName": "行业表",
                 "ColumnName": "行业",
@@ -503,6 +505,7 @@
           "TableName": "客户类型表",
           "BindingInfos": [
             {
+              "GUID": "9c89e30c-f2c9-4ff6-9728-ce8406e7f0f5",
               "BindingInfo": {
                 "TableName": "客户类型表",
                 "ColumnName": "ID",
@@ -511,6 +514,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "c2509094-26c3-4dae-aaca-e688895490c6",
               "BindingInfo": {
                 "TableName": "客户类型表",
                 "ColumnName": "类型",
@@ -680,7 +684,7 @@
                     "ID": "599d5d0fc87742deb8f54650177e8f05"
                   }
                 ],
-                "ID": "3aa61e08-4c73-4202-a595-abb97ecb859a"
+                "ID": "dd7a65ab-c3db-40b8-8396-b6ee6612b2d5"
               },
               {
                 "Condition": {
@@ -781,7 +785,7 @@
                     "ID": "f0ffcc149fd7461bad38b535b32d9c2b"
                   }
                 ],
-                "ID": "df7760f0-20af-4836-9c7b-f6c72adb3399"
+                "ID": "0406c420-55f8-487a-8e13-4f8f38195415"
               },
               {
                 "CommandList": [
@@ -871,7 +875,7 @@
                     "ID": "1e18994ea2e047a3bda79f0fa03655be"
                   }
                 ],
-                "ID": "88bb0137-ab34-4bed-95bd-64d88eeca8d1"
+                "ID": "344bdda2-b801-4708-9fc0-50ddf8c2358b"
               }
             ]
           }
@@ -912,7 +916,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=客户列表!AZ4"
             },
-            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand"
           }
         ],
@@ -997,7 +1001,7 @@
                     }
                   }
                 ],
-                "ID": "cb4c6221-b030-4bbf-b26a-0ed2e6dedc35"
+                "ID": "5e45cc36-01d9-4067-97e5-818272952a57"
               }
             ]
           }
@@ -1052,11 +1056,11 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=客户列表!AZ4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "ExecuteCommand"
                   }
                 ],
-                "ID": "f8350f09-a491-46c8-b81a-5f2e32860b40"
+                "ID": "b3f15b3a-736f-4411-b215-d6cabe4d6b96"
               }
             ]
           }
@@ -1253,7 +1257,7 @@
                             "Offset": null
                           }
                         ],
-                        "ID": "dee333f9-ef47-4179-ab3f-5e21ce86c158"
+                        "ID": "99ea830e-fd49-4814-b70a-505c057f19eb"
                       },
                       {
                         "CommandList": [
@@ -1265,12 +1269,12 @@
                             "Offset": null
                           }
                         ],
-                        "ID": "da469a64-b94e-4178-aee3-479189a72ba7"
+                        "ID": "c09be458-85cb-4b22-9e78-aa900a72ba78"
                       }
                     ]
                   }
                 ],
-                "ID": "2f1e9c61-8b40-4663-8495-7e25059c9aa0"
+                "ID": "40d78490-627a-4830-bd8d-542f2dde8dc1"
               }
             ]
           }
@@ -1750,7 +1754,7 @@
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=客户列表!AZ4"
         },
-        "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+        "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
         "MethodName": "ExecuteCommand"
       }
     ],
@@ -1838,4 +1842,4 @@
       "BoxShadowString": "1 0 1 5 #33000000"
     }
   ]
-}//1LYOf35IytrbvylhsWS2jf8pXee1lG1GB6p9G0oOtM8uF9l7AnOXuNYRlbyi+pxsqbvYkw19zveEal8WJAnO5eZza+y6Lk+4+SwtxEIau4lI2BhDM38VnEkmHuO6Md4hvBa6wo7IIdd1bt+Ux8LxtYNXtyXOjtWwqti0UEjMDpH5gUQUvQ6YBmD4agxs/4Rea2cAlyrEEXuQicKCvltZyKNumOaoKy+sZuVgiyhWYPr28vSPT07aS0N98QFkSbO8RaUCDKtUe0mVc/rgZkq+OsSgOApt4pzzufFQ+zJr2SFhv+zElHVYL1i2MjbkqgL/XvMLN/m8UfbyntTMzk/z+2UsSy98akpR6CvaSwvh1puEaktQMPUDPy6VErOSqLS1rQP+UKrcQQjZJ7+X0mj50iNe5WbjQoc1Z0mn5xa7tvU7Vy4mVvyPhtjVsTIaUedgTEZyKOqvbTrru6DvQkMm05C+t+ajGB/IBHlyZQkBZ4FGsgztGrqH0ZaCcFRE5+cGCx3XKpyvQFJWh9UFCohERSqhdik7o+1rrG6sS7DucGxYOaYoLTUxw06uPJctZb4kwpgn4n/Uhmz2ndWVnKo6GHR8TWhmyw7Zku2G3go2CbUKy47bz13jVcoVcwncCOQUDaYqiyGjJaGbJnpND+zLCyEev/bLLxomR/naDIG4EOtIgKhk1edxe6VPercM4danRLvhSVtnuzfoM//767DZBc6At/QaUzUbiLBT1rE4QhAEcGyubZvMaDGuXoz10fyOhlV4Z58wgxPSZdvZ6bQluM1Rx5g8p0XPTRZb5Buu4H7VNQWj/yflKwhY5/OnAJRqJxdWWiUpQqsFnpDYyuNOWe2d3rBVsEr8qVWdwS8Pth6FCAQ/9fu3HnzKiNUNuWMkAYOig3Vc47BeUs57QTb6PA==|920
+}//aAXVHCB44tnAgQG0talgx5+j6BM9LNNH8VrkBK0RIi+o06FAo2bADVJaAMXc1nL5+WyUchCfMwWAZrqHgmmZwX/JXuw6GDN6kR7Ad2o8e7FuujjVjr4NCHE/D/Enl1cpgmsPpgr0nnkr1xO6kyFSnVEXOnNrxdnEb0AQXx5PuwJuDvFPgccAzB7dS8FgVUemjXQeKqNlz2O7I02dzO2/N6BMOboN42/iPxjptc+oILOwpD7w0qBan5HNpd4WuGnN6DmmXy86jPId5gS+KDiEUgHEQg0FoiKEYqjWEAEbeNOzgkl2yEHpXNUkDHZPomTckJDy4dYgSPnUoU1qTgvUqkAvYGf6TPeRotlKyCmGxDjZJpGv4NdIxuDOJCkK1+M72y/FgQnYccAOR13hQ+V2xvvyQBGC7ErGoyZozpkcjy1jnBcLx0iPFzBO8LwMREarLnCDbxEkTNAblK+KW2/ymjyavFjhUwQNJRvt28sQVBxkQ2iOw1o9KncGRKXaQ5nKNHbkI/PWt9BkbKb/lcMwwRYuudhYF6EXAOlyp/ajxrbrS/X3uAm6z1FJ1+adIQiOzh2JW3lThyxAde32RcMLAO1oASsgHT3qMj7LXKEXL4IVWLLyhsMO2bCrv+hMieDgGZl0SFYUw6I1+liFtsjPh7xT+LJQIwR33yr6/P3GoWndNSSIXpLUfX+OlORsE5q9EJz5Caa333wQXz6mia+lLp5ezd5RCAJ/YFK8L8mm3Pjhkykm1SFcTl24Nq+he0ggaSdI85eGNmMJexWINPFSbBkNa9YiKYC1WKmjUAmpciF+HougL8iEkp2qkqhQ1//HAzKlZWx7YaNfQTyAAWM52nioGv9ON+dTpBWSp4dRsX7COkzqM1DnlUZA2DXx6iK7Z3Kh/iUIGRLJw/a5/8Qptw==|920

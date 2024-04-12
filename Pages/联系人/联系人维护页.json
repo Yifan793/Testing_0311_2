@@ -704,6 +704,7 @@
           "TableName": "客户表",
           "BindingInfos": [
             {
+              "GUID": "06ea83f9-b55e-4911-bb18-151541a1141d",
               "BindingInfo": {
                 "TableName": "客户表",
                 "ColumnName": "ID",
@@ -712,6 +713,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "58c9ba42-6b7a-487c-a598-12b79a556ced",
               "BindingInfo": {
                 "TableName": "客户表",
                 "ColumnName": "名称",
@@ -1090,6 +1092,7 @@
           "TableName": "省市区表",
           "BindingInfos": [
             {
+              "GUID": "dac9a154-9a77-4943-995a-52dd29226676",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "编号",
@@ -1098,6 +1101,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "c762a0cd-13ce-4d44-9a13-86357a9e6a8c",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "名称",
@@ -1106,6 +1110,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "77b63266-5ce3-4dbb-b121-554b9c0b98a0",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "父编号",
@@ -1289,7 +1294,7 @@
                     "ShowConfirm": false
                   }
                 ],
-                "ID": "e04ad207-f8dd-4d35-b195-81364593e7a8"
+                "ID": "bf91be38-d486-4fdf-a708-fdd0dff38cd7"
               },
               {
                 "CommandList": [
@@ -1300,7 +1305,7 @@
                     "ShowConfirm": false
                   }
                 ],
-                "ID": "c74265ec-a2fe-4c7a-8be3-cb72eafec450"
+                "ID": "cf109459-df49-44c4-87bb-ae2f4d07e816"
               }
             ]
           },
@@ -1357,7 +1362,7 @@
                     "ShowConfirm": false
                   }
                 ],
-                "ID": "c7c7a638-0b17-4591-bf27-717899a8ebf9"
+                "ID": "7e493554-1e36-4c1a-8fa6-4dad4e8c1845"
               },
               {
                 "CommandList": [
@@ -1368,7 +1373,7 @@
                     "ShowConfirm": false
                   }
                 ],
-                "ID": "81dce5d6-c580-4619-91aa-08898529e3c3"
+                "ID": "0adaa503-2bea-4431-92ab-5059be9dbb31"
               }
             ]
           },
@@ -2311,4 +2316,4 @@
       "Size": "824,688"
     }
   ]
-}//2593cEwl3IaQw4AQM03TH+nQdDdcNUn7NQQDActw+19AfawFSR0PhPkewoCBPea/PPvnnBQ1GC2Fy2xUHBfe0irtA4DPlDHxlYTl08BbSy8Muynuj4pGcSnppCuMQrTJEeQ4AKrPGhn+CuERkzpL9+Nzbn8Q9HhbHionYEPfEx+OXDz1dTV2wWs9ebuEWj/ioAFejC5ot6IFk9fJvS8L5n9oPpRsz8+EKYxsekDyRee5h0Afdtu/ocq0lrHvKWkEWimWR+JINCpPhXDwpj9wRLsxQz+VaHaKfBbujSX+Ed2ov6Pscp8RBH0Zpo4Vc6Zfp58fm1bcfA4djEJkvlpMYdXIhjr4JxWrgyivx6dYt/PzkDUKcV3kRGjOdfI5sIRjMqNMNybO/wiPy5lv6r2pltxZMNNFA5u1bMNdn2B0UtIz77VVaTDaB2lAEDU7T+tIUrWQ7/00V2rXTASRHyEhQ6nnm4H1M1sypZDmJclHKZRZwo003DY8RFxpx1ege1wkgr5C+u24GhHKyLKcnXp8NrstfBOpZZed1Ao+WF7FS1saNzitUxM0QVsklR5hagY6G2ao1Ql6EFBMDpA27CiPdNE6MYxevI3x+sHYi3ztP+8AFdIe/jiY5b+EXOWtPn9CPCMQd5APGxhrSKXf24CWRrj1cdKWttU5lixmufEjdk82hK4U4thhNGkXXrK4E8ivGNWfE66stscS6FhjNw1YACaxGGRpdRSRKgXK+jgsMvoVMU6BEJvoV75mi5+Cy7nVmjPdGlJUhIj6X+MDPhMITAfj+4R648b+4xte4bQUN7BucSP/qoBuKmKk8fjKwvVefuEBzGTQyuORXmtjqb9l8f4YMX2w9/VZ1VOTJNYBteU1L8J10nimt3YJX3jYIJPeR4kBJVVYhX0VTU79g4X8ZA==|920
+}//ix83SYIeZK71D2zcKvrWl3jvocJ02u2zMv2tk/HJCk5VpIC8edtmW9UfBtEJjwyCXru5YQltVLAOuZMdhY6Z0+g4pwgsKbbkdyUjLg7m7s5JRJKnayLUThz3HPEvbM9MOIdV8wOQtV8+xoLeh4dHTBGdp7HItlSGHLtcutpr0Tx61AdLAH0nMdSIKz+Rt7/mi6/3geLt7gBx9msOe4qFY6N3L2B0Ymt4sAL5T3qHNuox4PUD8SYOR+0IAfW8+mLihbbv/rsOayBMOEgZDuNR5t0i6qOINYB7WpagoNCKuXJsXFzz0bj7SFEl29/brGa6CF7tk3bza1tly9cY7xjS+6urfrLwNyozaQ+uKlH4tnE7Cysh7DQ29fhIhucaTLIxVqMxanFvraplnjxuClgG9csFurRczmNj7xf28ryjDZynDCYsrWRiSoKoVjkpS3Qt+Wwi1ll5KBUPQFBQZScbLGHn6E+Vl4pTDSgI0yneElGGvV2urdakGeUdJ5SA+F6v3WGGgfxZ7f61PEi/cOzHorIGrZj0+6TkemmEwcXMw48exjcKVne7n+zOrFjpq63Nb73MwtHBSQJIOkyjS59B8GsJRwNAJf+sYl9vmHBbK5I+uZqV11L4v5Z8As+sR8VWnkmYATVfvHpfdqhdm9DS1MOwhXPWL0PsVl4FvDsdggdD7gLOks4DgusP8qGj2n2Yzdk/HT1eJAu9l3T5xkwhobTLjeoN3KGtspJzsjk7Hd2uR/RxUyv7IiG+aRnEXNT1naiVvShh3cA+RT+WDBV+WjwMSiBJ/bmoUgs094TzKsTQzCNOxKhXLrQZy3ZO+TaJRnrwLzVVqSo5hcRC0ah3xu2n/he9p9I2kuOSI0GZeeTA9YLEmuX+Zdwg9b5i5TtxIa5H48uCwqqoCm5eTN1rxg==|920

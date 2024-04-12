@@ -687,6 +687,7 @@
                       "TableValueType": 1,
                       "BindingInfos": [
                         {
+                          "GUID": "d7935502-7534-4b5f-8a36-55a9dbe3412c",
                           "BindingInfo": {
                             "TableName": "商机表",
                             "ColumnName": "客户ID",
@@ -700,6 +701,7 @@
                           "ColumnName": "客户名称"
                         },
                         {
+                          "GUID": "fcb03123-f5ff-46c5-9f1f-64649155d648",
                           "BindingInfo": {
                             "TableName": "商机表",
                             "ColumnName": "联系人ID",
@@ -713,6 +715,7 @@
                           "ColumnName": "联系人姓名"
                         },
                         {
+                          "GUID": "e0c6329b-ca84-4f96-8662-8ca4eca7089d",
                           "BindingInfo": {
                             "TableName": "商机表",
                             "ColumnName": "客户ID",
@@ -721,6 +724,7 @@
                           "ColumnName": "客户ID"
                         },
                         {
+                          "GUID": "cd3631a1-4dbb-4488-90a3-8606458ac9ab",
                           "BindingInfo": {
                             "TableName": "商机表",
                             "ColumnName": "联系人ID",
@@ -790,7 +794,7 @@
                     ]
                   }
                 ],
-                "ID": "696d1108-f54a-44db-9b4d-b552215c85fe"
+                "ID": "40897567-07cf-4563-8cf6-b5e2df2b37fa"
               }
             ]
           }
@@ -837,6 +841,7 @@
           "TableName": "商机表",
           "BindingInfos": [
             {
+              "GUID": "85b1df25-797c-466d-967b-0e4e2e4d0669",
               "BindingInfo": {
                 "TableName": "商机表",
                 "ColumnName": "ID",
@@ -845,6 +850,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "a8f6c159-6a84-488e-850a-0dd44425dfff",
               "BindingInfo": {
                 "TableName": "商机表",
                 "ColumnName": "商机名称",
@@ -1101,6 +1107,7 @@
               "TableValueType": 1,
               "BindingInfos": [
                 {
+                  "GUID": "4c24d412-f33d-4f75-bcb3-f5f4df2616de",
                   "BindingInfo": {
                     "TableName": "产品表",
                     "ColumnName": "产品编号",
@@ -1109,6 +1116,7 @@
                   "ColumnName": "产品编号"
                 },
                 {
+                  "GUID": "a9b51b55-f1c0-464b-a7bc-fc55d862abb2",
                   "BindingInfo": {
                     "TableName": "产品表",
                     "ColumnName": "类型",
@@ -1117,6 +1125,7 @@
                   "ColumnName": "类型"
                 },
                 {
+                  "GUID": "d14c9e5a-3928-42d3-b7af-de4f0c40d59b",
                   "BindingInfo": {
                     "TableName": "产品表",
                     "ColumnName": "名称",
@@ -1125,6 +1134,7 @@
                   "ColumnName": "名称"
                 },
                 {
+                  "GUID": "441ea986-132f-4b18-a59d-7b10ed7cdf1c",
                   "BindingInfo": {
                     "TableName": "产品表",
                     "ColumnName": "定价",
@@ -1420,6 +1430,7 @@
               "TableValueType": 1,
               "BindingInfos": [
                 {
+                  "GUID": "1e9cd3f1-2e6c-4cc4-8f11-d13b8326a50e",
                   "BindingInfo": {
                     "TableName": "客户表",
                     "ColumnName": "地址编号",
@@ -1428,6 +1439,7 @@
                   "ColumnName": "地址编号"
                 },
                 {
+                  "GUID": "f998b486-6bf3-48c2-94de-bc63aa105d84",
                   "BindingInfo": {
                     "TableName": "客户表",
                     "ColumnName": "详细地址",
@@ -1476,7 +1488,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "ce621c86-9866-428a-bbd1-d13168b2c5ce"
+                "ID": "59411029-d1b3-4acb-82c7-a03a898a84fa"
               },
               {
                 "CommandList": [
@@ -1506,7 +1518,7 @@
                     ]
                   }
                 ],
-                "ID": "77b0fe09-526a-429c-9ccd-b63f048f197a"
+                "ID": "d1ca61f0-e04a-433e-a8d9-f14215095a8d"
               }
             ]
           }
@@ -1530,6 +1542,7 @@
               "TableValueType": 1,
               "BindingInfos": [
                 {
+                  "GUID": "b85fc782-4986-4c89-ad45-ea2cff184a52",
                   "BindingInfo": {
                     "TableName": "联系人表",
                     "ColumnName": "姓名",
@@ -1538,6 +1551,7 @@
                   "ColumnName": "姓名"
                 },
                 {
+                  "GUID": "e741ecd0-0205-4604-a13e-b2b87b26607f",
                   "BindingInfo": {
                     "TableName": "联系人表",
                     "ColumnName": "手机",
@@ -1546,6 +1560,7 @@
                   "ColumnName": "手机"
                 },
                 {
+                  "GUID": "615f4822-1a28-406f-88e5-5f1f399f75bc",
                   "BindingInfo": {
                     "TableName": "联系人表",
                     "ColumnName": "电话",
@@ -1894,6 +1909,7 @@
           "TableName": "省市区表",
           "BindingInfos": [
             {
+              "GUID": "4aff0024-8f1a-4ad8-94c3-53a32079cfc0",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "编号",
@@ -1902,6 +1918,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "43bde8e4-289f-444e-849b-5a2def94046d",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "名称",
@@ -1910,6 +1927,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "d367e8e9-5bee-49c9-8384-4e2a2a9aeab1",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "父编号",
@@ -2296,7 +2314,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "c5ae1f50-e0a9-43c3-bf79-d806dcab41c8"
+                "ID": "d03ce6e0-e83c-44f6-8840-a47ba6cb21a9"
               },
               {
                 "CommandList": [
@@ -2422,7 +2440,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "abf84003-9ee6-47d6-84bb-71472a732661"
+                "ID": "07f51d17-ff29-4b74-b0f7-6d2e7d7fffd2"
               }
             ]
           },
@@ -2455,7 +2473,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "8c7ab170-f925-4112-aec3-a26d6d08179d"
+                "ID": "367957fd-bbec-443d-830c-b9f0cb2c2eff"
               },
               {
                 "CommandList": [
@@ -2487,7 +2505,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "cae92ae9-4197-4b15-a084-ea61f1fdc0e2"
+                "ID": "9931ddd7-3920-41e2-bcd5-d8fd59b1f3ce"
               }
             ]
           }
@@ -2648,7 +2666,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "36c8b0e6-ac40-419d-a6b8-56ff11d68da3"
+                "ID": "85fb5d93-7a01-4664-9e03-482bb5138124"
               },
               {
                 "CommandList": [
@@ -2774,7 +2792,7 @@
                     "CheckDataValidation": true
                   }
                 ],
-                "ID": "df0576af-72ea-4860-8bdf-cc2c0b7e08bd"
+                "ID": "c2e9a634-8b20-4da8-8c5a-3f9ec918c654"
               }
             ]
           },
@@ -2807,7 +2825,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "3d915885-7494-4f7c-8386-99c5557f158e"
+                "ID": "5e089417-245d-4462-a905-680ce4bcee8a"
               },
               {
                 "CommandList": [
@@ -2823,7 +2841,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "1760be03-af5a-4c82-82cc-af7697812dbf"
+                "ID": "1d33fbe4-6990-4fb1-b39f-1486071aba1e"
               }
             ]
           }
@@ -4610,4 +4628,4 @@
       "Size": "840,1152"
     }
   ]
-}//DzgqhD5vfgqNodZ+bc6b9xVT04cuqRweP19QnioiIrQHDHbMRhP5FhWpFCV3kp5tb2iRRyQgr8K3OiA9G3IkzOu7JEvUjHFFnts8Mjlz+2N8K4drxNvYDAArLQrIYDbt5XL0t+Qa0Byh+n5ejZdk/8/TZ5JJXwZMCfVxJ9gO+nZbSBQ73d+ygOgGukFrBDQ3LGFr1X3S0CRJldzUKJ5NNk2Fje4lVHjdOKZ4AvDfMCVBut7U+bBTnjJKKPtQPLHBJ4716uzOI1h8I6OC8Fv6db19zu7BgoYcQL5gnYiXwNhRodPgDC8gwRwRNAnDphi/y2+qqCgS3cN895rfb5f2Kia30DMwD26mp4EDMPST4ZSrhtgI1pkKOBoCVVTQNcdHZbe6CTIPW6HdeFk9mWVjioriTcckVCZSOL+nb4dtmoqFbaupFZNN+Bq7aHzNJ6rtxceRKewSIvzWCHD084dJUewfa4qa1CbSoG0bjl9z8aPkgu64fcW2aheYmuTS5HM5gOKnCTMrpnoSGex8vXJ6eT7fg9LxVorsm+8xJhrpMhq3LqwNaj6T11cer0fSE3SOoHZAS3eFWA344kWKpHdEsSpeiK1c8CGUDk3kRQLUzu9vTakSSeThJTF8kFyG/YNg6DTDM7CWOYr78vRejC6yT/t5FmA1Xhuaw+zEf8f1dHiiYuU2/zDLACxTm9g3+yVEYH9vObZ9HpQmuCb9wD4qB8h0I1ZGqxP1fRMBW4jncKCGn0yxlAeP+BL+JqV6fAB+dyU1dwuZVejO3TL26/KU0tEYK33sD3ICIx+qMyetGcCM4Dvj51qBCWf1ui/xoiD0MNbuq8Q8c3zoQrw4WHHmnRUanSibK0rh6i+XkSk97VvZRjlBg8lwBmuJVo0PY6YvrjHv5ZbYvGkAWtndqL4D9g==|920
+}//jxIo2kUk4PbKK1nkP4GuLXOec3EzNOlCTMocCFQ5AqRIXQqhVgo56/E1KzZNOW58kz9VJn+Ym6mmkW35KPjAG5weqoJTyuYJBvsmlDlli00YKTLfJ4b/l+XV2e+X9ctogXnO0a9MFpwtRqTh7F0ZBOKg6ucyxs+jQVP+IBpFxNEEj5/IzMWNbMkCM6yvRm7yRByrQmECovzEkJBn6BlaM/8MfyyEOzrXI7vswZrLdMp1RgoE6LITJlAcqAHfI7Pkpo6Y3bQPfo82R/dqCeZBeZEBqKiQJpHBHYZmzooHtTgfQ+RpLDQfvIobut0ABu8SZWKzcm3foFVW7q/L/EBDIWdr7JcCYGsoduPZBEZQD1O9MymezUUJ6JVOVJ+r2IDVJWlGxLkJtX6BZwkqpyVjICGzU1j8SZ72hWOXdpegOw8C6nzcMnCUp88UNBBpUx5B4h8DEUl5fddCemXGI/YtI7aMoHn/+c8rWA4vplW3NHyuxewhtnuQi6n65ZbGC6HsWyHRtTAYTPJpTs2wl/Adf8vGbPZ71whdSXDpHwz0Xtkv/PqWwpxpde89Bg+L6fwT5A4/CJ5+5Y905hZmYlWtOvFAFx0uL5GXSsFRjhCHwalVziwodxfDmnrTPrCVARUHZcyAxB18DUKVl08gIaIjrWIYBcsNLEokqMnog3yzkS+EBA9GEV1KOao5LaAvyAKWYUuh1l90GqrP9BGEu0LxLatKpgPNj8QO+dOQw1CVYkvcXjwBXnPbAuR6xJY58gqteB/EsKfSttRDa3pO7W5zttF6nr65TRCGua58I4T5ll+dxY30y8Z+VHVdsdmXxgAakmgc1ZACs1gME8ZWIskTJm0NeNxOdvvEyVSfovgg3YmTpj4SVMmDFhVoOGnrivIm8EwI31ahmwNv43idNu7vKA==|920

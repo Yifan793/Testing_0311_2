@@ -94,6 +94,7 @@
                     "TableValueType": 0,
                     "BindingInfos": [
                       {
+                        "GUID": "bc661b74-4aa4-4439-a570-f3bae3f1486b",
                         "BindingInfo": {
                           "TableName": "商机表",
                           "ColumnName": "阶段ID",
@@ -320,12 +321,12 @@
                           ]
                         }
                       ],
-                      "ID": "6db75149-19df-4864-a4d4-ae9d11f4e229"
+                      "ID": "86dcdb6b-41a0-4021-8a4b-7536bac492c7"
                     }
                   ]
                 }
               ],
-              "ID": "280e3247-d47a-43ed-8115-1831891faaac"
+              "ID": "1f4486be-f7bb-4a2a-a614-76244b2dfd85"
             },
             {
               "CommandList": [
@@ -501,7 +502,7 @@
                   ]
                 }
               ],
-              "ID": "0a34f134-8d21-4a98-8558-aa117f305609"
+              "ID": "263b32d9-5176-4b01-8471-6b9b2365571d"
             }
           ]
         }

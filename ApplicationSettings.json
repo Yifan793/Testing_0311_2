@@ -7,7 +7,6 @@
   "GlobalProperties": [],
   "WebSitePort": 46992,
   "UserServicePort": 33934,
-  "StartPage": "主页",
   "ExecConcurrentScheduledTasks": false,
   "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,

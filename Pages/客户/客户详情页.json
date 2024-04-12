@@ -580,6 +580,7 @@
           "TableName": "联系人表",
           "BindingInfos": [
             {
+              "GUID": "15127ba3-be86-4e7a-a68f-a75ccd650993",
               "BindingInfo": {
                 "TableName": "联系人表",
                 "ColumnName": "姓名",
@@ -588,6 +589,7 @@
               "ColumnName": "姓名"
             },
             {
+              "GUID": "bd3da4fc-7c0b-477c-ba4b-cd4113eb556a",
               "BindingInfo": {
                 "TableName": "联系人表",
                 "ColumnName": "职位",
@@ -596,6 +598,7 @@
               "ColumnName": "职位"
             },
             {
+              "GUID": "3447be7a-49cb-4e84-bbbf-2cde0339f473",
               "BindingInfo": {
                 "TableName": "联系人表",
                 "ColumnName": "手机",
@@ -604,6 +607,7 @@
               "ColumnName": "手机"
             },
             {
+              "GUID": "56450fca-3fd6-4a9f-93cb-7e8b33814813",
               "BindingInfo": {
                 "TableName": "联系人表",
                 "ColumnName": "电子邮箱",
@@ -612,6 +616,7 @@
               "ColumnName": "电子邮箱"
             },
             {
+              "GUID": "1c46affb-e350-4247-bf99-b922fec6ab0b",
               "BindingInfo": {
                 "TableName": "联系人表",
                 "ColumnName": "微信",
@@ -1656,4 +1661,4 @@
       "Size": "824,806"
     }
   ]
-}//HlLIAfbJM0vsjppYnIKE/O9NEmOpK8/bjomBBY703eTuE7v4FT7XiXjpd86LwIjTq8mAqELxlY6HB387t/RmYp3/1UoO8gaWgtDkduFOOMzOSWIc4O+kzw89spv0B68nJxb0R8/jI52IVDDd3a4kIBO0cDzn1P9rpflXHD/chlBFn3mJwfyoWNudQw/wP4Pr077HglIsQgkI3TBODXzfts5R3wjo6ZSpPaPLF2on8iIu12UrQy/KFTKlTKOMsAR4n7sqhYQBNBY5qmPmTWP5AzLRqD9T3hP5oufS+l0T8TVI0b/7Os62U9Agr8gVvVXf6X8XYPHu6f6c30iAj4HG1FGsTKoT/cTUMF36AJzlAVEvHhtIcTAhPHPgyzhsdVFbeLjKriN+Fdkxo9fbCOCWA+ldkjn+MQ2jnlwrc7naICSYNz73t2FlSBc7s/iiBQFNRXVcW1wYf0y6NiIlUNNiKa2uXXRSCFuv+RDgQd4pJSkSqJFqTTM0dzvCDodummyio2PkpWxoNmzc7e7oAy4tuJY4bg9GkE/B1viFeuNvvGp/tIeatlVV5+ek4aYtvfqai/QiH2d6syTYVRAxSa/xxFvzBZcWDepYxVXkj5NAJdds4MH5czWXoyE2HRwhe0/JYw3s6B10io38tGlFQrj5Z9Fl2l1Lngz/GsdTP9qAAgZbUfQplECL8KfFtjPVzdDXHdBRdjGUnzdtFwOOg+K+ILsiLwXJAjS7EZyM91DOj1OqzyChb6S/o3oQRAG32qJNUi/YMA8xzYtKYQSllh/nnkh1evpC/dT1ZQrHaNGFo4PeJ3XtjwkvQup7edE3VXEGVV6DWIp888riBK4bXBMJuZTQfltVhuSchrh0ujfBK/dkPYLtxNqT4Cx2/c/GCnOe2kJa2Og1LnwCCqVe6HXy7g==|920
+}//0CzTV4k/DO+JMvBzZ6VWkpZc8DiEse5AJUyVVK7aokNmGh2nhvEtZJ+OA7lMAC/RykDI6XW7yeG79PWsuCyzCjNENnApbquM5v6+r9GB7aeKZsLEGhwqXEa+njVuGMW8+yqLMId1sUjVa26WrSfaxwhDDOJ5aS0bILUmOUj/j7W3+n5mokcH1J03o+/Z645vOuUqRxH79ZNrlAxraROGyAgAjKXLJFoOQaFR82hul3fmFzqxev/IprIo/3gwPbDQj8rqmXLOE73pBufNz+TmQhtCUXuLb94VqtyHi14HASATTm0OreP50CYwNkBYwF7mMpodzdEYuv0EgDGwVzHKJNOp9C3fOscQReEq28+mf6q74P/t/3P/Z9GYbTzuL9dKUmy8j0ZbkEDhziMPOmOf/EdCwF5t2VQddFwtL0H1FQGwDMFdKYgKJsl4JtCQybGMA5EnnzyB0CXkl89iiMx8orANrmXvRe2yVAAGfYEjTdh8BIfYtPN+p9O4poOXAzEOwgZB73KfPx/8f6u2pFLDRYmPu3IRhuiD3v7510u1A2OJmnCdPcwTP8vbKMtJKKfJmsGukLSCNoaeunyD5+ZrSN+y0ovND44ESyoKppsKH08X5ZVhjzbrqGpjzMsnMKO4QZZD77y9yURHND7DMMHvC9U2esOr59IlT2xoTSR8rjh7jDdzbd1bQU/r04tTjl9f1r0bs9tvQWTIGh8eVIR0OhfoQbqDzgVDqPQQKW/u+LW6QqL+Au9KymHIUEWS2bbQLsonYDpH+mIQPKo1NhxZAfAvQPydTgOT2FnVQ0xaifq1dEFYZVIxUJkgprupzOUyZCttoRJR4l1HFzwIRH3XwrBddo9dePJrxHq4j4NqaDkIcI6ODKzUqTPWOMEsewNlpTaIWIjw7neZ9fR8Dz4AQw==|920

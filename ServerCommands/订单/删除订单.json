@@ -41,6 +41,7 @@
             "TableValueType": 0,
             "BindingInfos": [
               {
+                "GUID": "0bade6d7-07f8-426b-82e8-a374bbe14437",
                 "BindingInfo": {
                   "TableName": "订单表",
                   "ColumnName": "商机ID",

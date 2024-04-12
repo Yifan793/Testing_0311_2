@@ -542,6 +542,7 @@
           "TableName": "客户表",
           "BindingInfos": [
             {
+              "GUID": "f049eb9f-065e-4bf9-a114-1608e1785fde",
               "BindingInfo": {
                 "TableName": "客户表",
                 "ColumnName": "ID",
@@ -550,6 +551,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "d7efa2a1-1d2e-4f96-9639-de8ea0a36f29",
               "BindingInfo": {
                 "TableName": "客户表",
                 "ColumnName": "名称",
@@ -674,6 +676,7 @@
           "TableName": "联系人表",
           "BindingInfos": [
             {
+              "GUID": "4de58da8-05fb-4134-86ba-f34b8f5df8a1",
               "BindingInfo": {
                 "TableName": "联系人表",
                 "ColumnName": "ID",
@@ -682,6 +685,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "43af9719-aabb-4dd0-8ca2-ad8e11b9b474",
               "BindingInfo": {
                 "TableName": "联系人表",
                 "ColumnName": "姓名",
@@ -821,6 +825,7 @@
           "TableName": "商机阶段表",
           "BindingInfos": [
             {
+              "GUID": "bce641c6-6ff5-44c6-aff0-2e70f08bc28d",
               "BindingInfo": {
                 "TableName": "商机阶段表",
                 "ColumnName": "ID",
@@ -829,6 +834,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "7407c5fd-b108-4f68-aa42-a58e38aa3db8",
               "BindingInfo": {
                 "TableName": "商机阶段表",
                 "ColumnName": "阶段",
@@ -1034,12 +1040,12 @@
                             "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                           }
                         ],
-                        "ID": "b95da772-ae2a-431a-9bfa-e7aac6bfaa5e"
+                        "ID": "49c51949-82e7-4c06-88ce-cdb444b8a3e5"
                       }
                     ]
                   }
                 ],
-                "ID": "23d18fc4-afc9-49b4-be66-b611e801da10"
+                "ID": "9de027e2-9f19-47c0-8737-eb8dfc543a5e"
               }
             ]
           },
@@ -1162,7 +1168,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "e1050a00-38c6-46f9-8e3f-8a0c5133a633"
+                "ID": "f1a78a2a-5723-4cb9-8a43-503866cbe57e"
               },
               {
                 "CommandList": [
@@ -1194,7 +1200,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "40da44a7-dd6b-4c78-af37-6141abad92c1"
+                "ID": "130c8be6-e1f5-4fa8-a5ae-5c3b1e1ecc03"
               }
             ]
           }
@@ -1291,12 +1297,12 @@
                             "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
                           }
                         ],
-                        "ID": "21d333bd-ab52-4346-babf-e583bcf3b897"
+                        "ID": "cd4a9f0b-5802-47a0-85a4-845a46e184d0"
                       }
                     ]
                   }
                 ],
-                "ID": "3f84b062-2053-4a59-a5d2-0d15d9908f35"
+                "ID": "37f0fcd6-9379-4cdc-95be-8b0dd9938df7"
               }
             ]
           },
@@ -1423,7 +1429,7 @@
                     "Offset": null
                   }
                 ],
-                "ID": "3660f09e-c36c-4c8b-924a-685ab6f3195d"
+                "ID": "bdd55db6-4a29-4063-8e4f-6024b3ea4f62"
               },
               {
                 "CommandList": [
@@ -1439,7 +1445,7 @@
                     "ReloadData": true
                   }
                 ],
-                "ID": "d881b65e-d12e-42ad-bdbe-cd959d74bb59"
+                "ID": "2c278f27-d0b8-4fe0-9843-c6f8a2119af0"
               }
             ]
           }
@@ -2061,4 +2067,4 @@
       "Size": "568,560"
     }
   ]
-}//oeWi6hrEu7U7OY1Wc2z1eBw4pv4xVRlO54NWO30BK5l1Q+2TG8MYLaBt00BnlJpUrrzr3AcoLqZRg7ZLwfsDZswln3MFAnOYxTHLDfo/hf1q9r+JH6YdAZ2RjK6fEgb9JYPUKxybVVrhxjbLoRtWe8HNxu8aGPrUH7AezHw6qhyqu5O0+gocV2brR2UhEXWqA2XMoO5lmW/Qx/WI+rFJ20WMdUN42BgmRkXNApKnXRjd1CioW04XmV+eW7LhQT/rJvnhYZuvdUeX4t4kTQ4QtYSqnyd2xyemxlo5/9ATmKaM+ereZ28wx5RnY/uEK+t8oNz8blAYnVKn0QgAp2yHsT+FOjg6jYRsRalajxRUXh6ejQir1Ylkr+hajr5HG2N68SPPekcoERBJNwS2BUlOwIG7Y4BLW5wfanyF2QxP+iJtAQS/MRssJjo/GrYgMAogeeo/ztZ310lEHq4Ng74MnzRVNpWvpwFsJDQrSK5N2kr/DejLMt28NcdbZPluPybG+Hnd22XUy7pqr2IMonAZ/GLc8FYHXkzlv9fh4edPFeE2iZj7Nozko0E7a+u/B6WVVuLYR1Q8Oo79PISs0omWoK/FKiA2GqtRw97/1OvODZFlJkNt3qPR8f9Vba7zpTim78t8wIFnmRDTO2guJ9B5T7OPQAGoX0HmY7Fw/qMo+pgNgBY2OXuKV0VitW349fg8Zb1Hc+RoowGqbod4kJZRBXdZZgSj0jjmgVml97dlZolyThkWTdCPSoLdvrTw/RzBCHb1poeDsf223Nj0H1CivVZj2/MlaRIqnM/8+PTrfi+SzGBRO+714kb082LuZM1Q1yLi+999hKWa+8ntfbMGt/7nZmJ8Eq4IBTM8/Yo3LtRENqkf3omWO+w/+A6fDl+U/wzzAGqrzz4Ub0cUWN8xNA==|920
+}//P2y5jITaG1FY/5zTzbSiDXU590326Dk6/8Ys+kvneco3RCxdRRREbZftF7oA4hvBj8mSb00tGaDnPyQ3ESiuwMv6StNJ45sCRSK2vL3U0dTA/9cWlsCBui7rhsuHbVJ7mZY1v+jhgC3NPMUlWwZ90bDjAlR4lVx7pnfLoYeBRiBi1EpuauiXtSMddg9VDIfz0woVmQhlDJ1vgqglc8sOZp74Mc/gh9qetEPXbAlHmQM7DppSXM71Jh0JkrFcZFuLULctOCVIuhqE0Wzt9EqWFDFXbGBuqFntLlc/NSpulDnk2gM7LuvcEdx27+DDgPIxsJv5TRrZFuAvqc85EQVjruy7tJ8uv4hD2HheiAto0oHcwbjFRQNcCWz00o7Ub2GRx1XW+uf84tdPrlNwR0H4k5w1VffuDuTyfNSO9Jgr45FsEWUaalhHfLOsU2LbWE4dzJ2jvko6CGktr1UcrNtf2pGqefSbYCf4fJTKjnhG7w/rnPaitM+cfW7WovB8+fyo/fUv/iz4QxdESxIimEWe5JFBfM5xMVD6jUsTSKZqmJGVi6cDl9q8VhCm3n7i5VQXJyk5pC7Ob+nOsO3gb/0Dz/VpBZJsnbCY+4Hjoy4j4zPoiYoKV47ddtaq6jm1Vh41IcEZ57UJY7x8m+X0CsjNfKpQT2jysvV0PKb1ohjiOll+iaNqpgfXVxyLOBbZ4XEXgkQQdCC1RamdA/wlkIKHWv0tm/iO0P4SsC0flbsOTTgzwuF6Qu5Gd6vVY+jhoFXpNlg8/L20MWKJ3uOehclDtH0C4RUYgDAxp2AFR/Mc/d1yOcTDlRkUjfE5mlW9AYin+az3hn1jbWcCsl8Bl0IYBL08klhOFe4CQ/8rkt3+zhkEEzCZTMqSGUDMWZSXbni/v/xJ47EqCfkN9FLljHWzDw==|920

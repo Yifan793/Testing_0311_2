@@ -339,7 +339,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=商机列表!AU12"
             },
-            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand"
           }
         ],
@@ -478,6 +478,7 @@
           "TableName": "商机阶段表",
           "BindingInfos": [
             {
+              "GUID": "0b5cf53a-fb52-4c78-b0ad-046a716bf1cd",
               "BindingInfo": {
                 "TableName": "商机阶段表",
                 "ColumnName": "ID",
@@ -486,6 +487,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "e93071c2-e8aa-46a9-8638-c132edaa9fa8",
               "BindingInfo": {
                 "TableName": "商机阶段表",
                 "ColumnName": "阶段",
@@ -670,7 +672,7 @@
                     "ID": "f9ec00abc7aa4d8eb11e7bd261e9f708"
                   }
                 ],
-                "ID": "36ed8fe6-9ad3-4bb9-9345-9d5ad749052e"
+                "ID": "4ff700d4-b8ab-4340-81ba-9a56b810832f"
               },
               {
                 "Condition": {
@@ -820,7 +822,7 @@
                     "ID": "3b6497920b544e5fb1bd990fdad392b3"
                   }
                 ],
-                "ID": "f25526c4-c06b-4f18-8d55-bd5b3dd3c8dd"
+                "ID": "cb582a12-4e3c-49fe-bbfa-3115aad5d208"
               },
               {
                 "CommandList": [
@@ -959,7 +961,7 @@
                     "ID": "ba1c04b448a2448cae963aec54df637b"
                   }
                 ],
-                "ID": "a326366b-18ba-4c6a-a719-df52145b48c1"
+                "ID": "9a22aadb-42a0-4224-844d-de5e6169ab05"
               }
             ]
           }
@@ -1000,7 +1002,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=商机列表!AU4"
             },
-            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand"
           }
         ],
@@ -1059,7 +1061,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=商机列表!BD4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -1072,7 +1074,7 @@
                     }
                   }
                 ],
-                "ID": "e4917573-bbc0-4f2d-bf76-904eb6b8325f"
+                "ID": "728c2696-0895-4266-bc78-22f3b8e340c5"
               },
               {
                 "CommandList": [
@@ -1106,7 +1108,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=商机列表!BD4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -1119,7 +1121,7 @@
                     }
                   }
                 ],
-                "ID": "b6b2d854-fa39-401f-87b2-f99cc3af5fd4"
+                "ID": "fe4d326d-9d2d-44c5-a05b-571260ecda09"
               }
             ]
           }
@@ -1268,11 +1270,11 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=商机列表!AU4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "ExecuteCommand"
                   }
                 ],
-                "ID": "2ddb110a-3db3-44a8-8fd0-77cf651f4cbe"
+                "ID": "cc6a4f50-e07a-47de-b198-5a453d42bbf6"
               }
             ]
           }
@@ -1445,7 +1447,7 @@
                             "Offset": null
                           }
                         ],
-                        "ID": "dccafb2f-f8fd-4b4b-9fb0-f856c52ba180"
+                        "ID": "a924402f-0705-4378-8fb0-f87a0aac8ce9"
                       },
                       {
                         "CommandList": [
@@ -1456,12 +1458,12 @@
                             "ShowConfirm": false
                           }
                         ],
-                        "ID": "5af7c945-e59e-4982-b105-560a87f62119"
+                        "ID": "0d3b8688-6f07-47bf-b936-4fde07e6df1a"
                       }
                     ]
                   }
                 ],
-                "ID": "08259a8c-6d96-4dea-abc6-d29e05722e35"
+                "ID": "a24a2cbe-8371-4f7f-89b5-0c9d46641ba5"
               }
             ]
           }
@@ -2090,7 +2092,7 @@
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=商机列表!AU4"
         },
-        "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+        "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
         "MethodName": "ExecuteCommand"
       }
     ],
@@ -2178,4 +2180,4 @@
       "BoxShadowString": "1 0 1 5 #33000000"
     }
   ]
-}//tmph/Lh9Df84kuUO34q4GtLNPKz1InmG2dTScyAbCwTnLyyu63gIrWSlabS9TQZEUeVryvv9Bi85o40gAcf5Zhu7GPPOxD06lNODGYrWs9bNn7zyuMJrmO46US/AEASUtHKsC8rFrtBWhBvfpXK03qLvHj4IQXms2FzZzNzVoRxYEqJ9avcVNJYhhiBgrEAEAqMSV3LPCPwuJ6yrKGIfLT7TnmsoDXOnc78/I+OFXhHQSWZZvbE4tNDdrSIZvqfzZB1VqIX+nGxrke+OtLL0bMFH3WZZb3gPBaFJAp7NzFgRzHAem/UyLVCwazgWZ4zEZ99V94jNqbSUGVdRKACtSciyJsa5JdFceFYC6R4V3/YIKOnYsrEvPoontRO+t9l9wy6OfVz2zlWwfL4PFOSTsvcqJcjUlmX4R5eP7wn7ZxRMIutrf+nhgExBifdPySHYlT4T+3NoPwtp6MXtZFrC3d5UkzKHjGdpCjNfo3mBGloY5V47P4Dj5aNuocN47nK6rYhZSLUjPblSS0Ot3XesAb7QFw4yBRoLo1/GNIutHCL0zLoBj62jSxsPlxx7s+z1gmm+wj3KKCEIHuZXMFSSiV93z7ODMyAC8NnbC8byMcpOdOhEdcaxcWjctuphrUQdhH1I5HAyagqXBOW8q8kix2cj6O7+p+n3/n11UrYHbDBfBpWcjx49CAgDgweKPRXV+kZkVEIamon2mSqp1/l91HxPqQgfBRqLTeAipk052lkCCQQOhxpEc9BdFPLl+P3GyIuLhwCKvQv7ElNu+5o+KqHRquHcbnK6qVp/u9qjka7qoIXXoLwzbPQ1z8nT4g4KmhrP/bEvJUaVfZhgQr/2cdUIt6MPiWeB0jl64GQmbnud/vTnK1DaGV2ZgKF6KeCtnwMqC5IY0Degnu5W+89Q/A==|920
+}//SYtXpOQMkhxZJgT197rhWnEROoUToFO4LiZB41jTABGw/cMqxTdbC5jdnzZgg40lRkbR8nnKgXHC4+NACDsr7LQGgwMndgXfO8rFyLpkXq47kR6BjACZRhVeE+XM3oWEeMsyaxDVVoB2VfvDL5E8uMZ9BNyshVQxQ6MQTab2G7gMGPxmYYD2x0Zbwh7mDsj/RJdhJMRc+c0ddbIx3s163SNKFlUIDz9OhVxQQJkV//AU2g7CJX2yKQMic9E2zFNX6DJTadJ+1k3zTp6B1FJwyVM8h0fbXyFn594bHbrlwy+BmQ/FEv+LdKN4b2xpAEfGSecJPXHZksjx1HFUBYZEkocCbLXQR91yIZOss8aqSKZHhltv1baJs00wvuuWdeKEb2IctJ+EDzYQEdzodta17bGOqk23CoXJBzhkc2RtzeTGiCfwfjC2KAtRnDAVLRUoUmu+1jFjMcJksLe2cHAHTaXI6zPTDV3yfNrMzl+j5EFJLNvqAJ3hqCFBU2V2y7afOh14lOany+Bi4TVarJPpBBlc8hC8E3LZT1kjV9RWqxKK45gzf+B1g+tRTQbShUxw+UgiduwS/4W4XbxM3kB7zzeXtvdzIJMpOS/IQ9JIJGG26ZkCwasI1bj+CzMe/VfSgGtivgxQKcsaRUcdBFFS1EpnJiEyQxuRW9fr0L4K31hsBQ1gWesTWwJzV0MS0wqLuALMd8c5zbHrPoz6NlRGCS7963k1ZnksTfjN84qviiS9T6QlSNs3KTsannWVGoVuKxbzXBjbKSff9eRNNQ9RuKSgu7n6RLIG4Xr/THyScD9XTyYc/nBVEDgU+AoE4gPrFqz52zhATSauXcB1HG+hCJG4rqH6a+UXaPgCHO9KU0k6YOpwNcXJcAnM1l9+ndTrNXL5+3QPcNRcuqKBBcCw6w==|920

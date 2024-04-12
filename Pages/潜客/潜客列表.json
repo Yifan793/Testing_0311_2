@@ -413,7 +413,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=潜客列表!AY12"
             },
-            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand"
           }
         ],
@@ -522,6 +522,7 @@
           "TableName": "行业表",
           "BindingInfos": [
             {
+              "GUID": "ed6af5b9-0d99-432b-aaac-6cf33f0f5d2e",
               "BindingInfo": {
                 "TableName": "行业表",
                 "ColumnName": "ID",
@@ -530,6 +531,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "0b56c286-09d7-4391-bb14-f78671cf77a9",
               "BindingInfo": {
                 "TableName": "行业表",
                 "ColumnName": "行业",
@@ -597,6 +599,7 @@
           "TableName": "潜客来源表",
           "BindingInfos": [
             {
+              "GUID": "287ca679-46c0-4231-b363-822627d4af57",
               "BindingInfo": {
                 "TableName": "潜客来源表",
                 "ColumnName": "ID",
@@ -605,6 +608,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "f2ce3546-30cb-4710-b56a-2a0b328082f6",
               "BindingInfo": {
                 "TableName": "潜客来源表",
                 "ColumnName": "来源",
@@ -748,7 +752,7 @@
                     "ID": "1825308f050f4152a696deb92b36118f"
                   }
                 ],
-                "ID": "cc82846e-c030-42b5-80e9-d1f539ebb566"
+                "ID": "3dff909a-6536-40d3-879f-4cfe566de88e"
               },
               {
                 "Condition": {
@@ -874,7 +878,7 @@
                     "ID": "dfba6370f24740e194dc6e2dc9d985b8"
                   }
                 ],
-                "ID": "408d5935-ace6-46c8-8640-59305100f287"
+                "ID": "defe5787-7970-4f30-a8fc-8cedf06e0a51"
               },
               {
                 "CommandList": [
@@ -989,7 +993,7 @@
                     "ID": "413b58e1a47946b8b6a55d1426c0fb30"
                   }
                 ],
-                "ID": "8e08a47f-bc33-47a7-8749-bbc6b9835ae0"
+                "ID": "7b38efbb-d12b-4542-9a36-48a5cb32ef81"
               }
             ]
           }
@@ -1027,7 +1031,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
               "SerializeProperty": "=潜客列表!AY4"
             },
-            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand"
           }
         ],
@@ -1086,7 +1090,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=潜客列表!BG4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -1099,7 +1103,7 @@
                     }
                   }
                 ],
-                "ID": "82d9843c-24f2-4ff4-bc63-c5dfadbcaef0"
+                "ID": "0d2c890b-4f34-4441-bc32-8c49e445adec"
               },
               {
                 "CommandList": [
@@ -1133,7 +1137,7 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=潜客列表!BG4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "set_RightIcon",
                     "ParameterValues": {
                       "value": {
@@ -1146,7 +1150,7 @@
                     }
                   }
                 ],
-                "ID": "16887a54-3e02-4233-9a13-f10d41ac6b26"
+                "ID": "c0b691c9-7f85-4087-8fdc-701affd516d0"
               }
             ]
           }
@@ -1448,6 +1452,7 @@
           "TableName": "省市区表",
           "BindingInfos": [
             {
+              "GUID": "fc600f62-9e95-4a33-a554-47db3cc1833e",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "编号",
@@ -1456,6 +1461,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "285ad76c-27f6-455a-8cfa-84db3e4e7940",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "名称",
@@ -1464,6 +1470,7 @@
               "ColumnName": "label"
             },
             {
+              "GUID": "e4af3a67-1ddc-45d6-b02b-85a60c5cf8af",
               "BindingInfo": {
                 "TableName": "省市区表",
                 "ColumnName": "父编号",
@@ -1515,6 +1522,7 @@
           "TableName": "潜客跟进阶段表",
           "BindingInfos": [
             {
+              "GUID": "e8427208-d599-4908-90b2-2da81154ab16",
               "BindingInfo": {
                 "TableName": "潜客跟进阶段表",
                 "ColumnName": "ID",
@@ -1523,6 +1531,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "7ed515c3-8815-4a62-a64a-f87c9fbbecd0",
               "BindingInfo": {
                 "TableName": "潜客跟进阶段表",
                 "ColumnName": "阶段",
@@ -1590,6 +1599,7 @@
           "TableName": "潜客状态表",
           "BindingInfos": [
             {
+              "GUID": "9a4b112e-1fed-4a61-81a3-22cc09dc349d",
               "BindingInfo": {
                 "TableName": "潜客状态表",
                 "ColumnName": "ID",
@@ -1598,6 +1608,7 @@
               "ColumnName": "value"
             },
             {
+              "GUID": "0123c9e8-2864-43e9-b6f2-0dad0c78bd04",
               "BindingInfo": {
                 "TableName": "潜客状态表",
                 "ColumnName": "状态",
@@ -1662,11 +1673,11 @@
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                       "SerializeProperty": "=潜客列表!AY4"
                     },
-                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+                    "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "ExecuteCommand"
                   }
                 ],
-                "ID": "1daa7877-a936-408b-b7e0-7a47e165b858"
+                "ID": "0f238f32-463c-4237-a68d-d9836c68d966"
               }
             ]
           }
@@ -2076,7 +2087,7 @@
                     "LoadBindingDataOption": 1
                   }
                 ],
-                "ID": "2afb0491-f721-4703-8f6d-8de789737199"
+                "ID": "1b013676-28d5-4444-8e0d-5a9a70615709"
               }
             ]
           }
@@ -2306,7 +2317,7 @@
                             "Offset": null
                           }
                         ],
-                        "ID": "28b455a0-8e4d-4d9d-962d-5b9d663b09d4"
+                        "ID": "fb107ba1-978a-49ce-a812-8a7e238524a9"
                       },
                       {
                         "CommandList": [
@@ -2330,12 +2341,12 @@
                             }
                           }
                         ],
-                        "ID": "3f4eef41-1f3a-42f5-add2-e4497767bb96"
+                        "ID": "6df5f73d-66bc-4b51-af84-141b4580c8f4"
                       }
                     ]
                   }
                 ],
-                "ID": "edef9ac6-da45-4f27-938c-fae0e3c06382"
+                "ID": "a6b1a25d-2e56-4924-a567-57a4a4407d82"
               },
               {
                 "Condition": {
@@ -2370,7 +2381,7 @@
                     "LoadBindingDataOption": 1
                   }
                 ],
-                "ID": "49477b15-3fab-422a-9d75-7c1eb0b66433"
+                "ID": "833a4e6e-d64a-4c8b-9498-e14feb635a8f"
               }
             ]
           }
@@ -2887,7 +2898,7 @@
           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
           "SerializeProperty": "=潜客列表!AY4"
         },
-        "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.1.0, Culture=neutral, PublicKeyToken=967100671921c115",
+        "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=10.0.2.0, Culture=neutral, PublicKeyToken=967100671921c115",
         "MethodName": "ExecuteCommand"
       }
     ],
@@ -2970,4 +2981,4 @@
       "Formula": "潜客列表!$BL$6"
     }
   ]
-}//EqYWmV+A1WvcEaeQFectFFY8gug3JWIX4CrFaUwpBpKcDaxtVxhAEcmAfJKvXclqIoerq1Gq/EBkOInjyN3Iaf0N1wB3ga0KWkfkb7Sej1RKz5ij/p+KHfn0Zdfev/om7w+Flgeygq38Jyw5Z5fYIhy94ERZudgjw77Jch5BiNaiLLNPjKhC/+sxQlRuF9PD8bliv35nx333j1rl6F8WAyxA+8+qe53/LHImo5dSQ93PSvXPBbhh1u3oxkc+lJBtFTLUtXubLmEh5PJYo7xTR0vox8SdIjXJg3aotyI18sGAnUlx+qXcSiwtCJSYw9SMrngw8h4DdXZieYJne4UtsO+mQyMaHsNiK4hz167KbKqH2PusOk2nGom13VDZVOe1u/aXvQ5oT+T4jRFdTzbXJZJWnebO/cNQp4jBO99pZctMDBJ2tmkVR4R92QH1VParl0P1jEk6x1BTvWY8cxNnEvRnzDq8rHSC3h7RYRtKYiQQzgG9CHNW3cIjOEadA4cpuLRFX/D9/qy+vAVm3T0UWqhFKb7+vznw1ld7OkWuU5yEbwAgu+ku6aBwP8s/LDn+dA9/ZcoT7q11lLfwWvmNSeaaOCtI8kYqc/hdLesZpInL/+Jmw/sCuNjcHEwPvSln9orlriA6s01NHlCfwW4bdUdbUd3oKmYWFDf2qTiTSl2xBCgQaAsE2FB2H/OecaojyNBqFpWiGg6PC+D3MR1Jz/e7F+UUppa1o7toVQXe56mPiwLtNIz8awET8lbWOgAfZHy9ctkkyoiLdhihYPRi8Q8WmP19+L4h7zuzIjaqTvtFVw2lcZDLAHHP1y+DY1y7eDs+sWBWu34B4m8TRywjJhBrAP9cM6/l8pv/wXImAUXQOimB20mMfHNE/VtKqcCn6im0hCIGLxy19un7QQkUHQ==|920
+}//fDrPg5gwYd6TiUQZX41gRG0BM0vmcfWeHbkzG4s4JyAGV6ZJC/hXWRvkG9zgS35KdBEKXYrcQloFeUx3Uod96YBEFaMt/rb/O2KKa4J/ngz7alXisZswOtQe57QeBhDO0YT7f4AiCfPzHTw3OcTgwYZRZ4QZ1On6tckn0qw3qVb1qGMK/AV0tme+md06PzkleBKpA4CmzRiHbH0Rdhw426GYDVDKYEOa/AxpfT6Wk0K0Vjw5BLhrQlFC/Tq8y00vzsrAy6zTOXnq+dxiAt4aqIoon+LlgpQbH4125IgQkuEztDodwhY1WTVmxdF2sxm2gdqoSelrMy6sD+fEYRwdP3M7WT8re7K19fvr4JnVgi761wGgjOxMQ2aPxfixD7mhP1t5ZFz7lLRm6En+B8Ic8jSRBJT/aSukYKsAYA3kSG4ASl2tCDRsQJot3SZT823PtD9u2Cj+HViHO2a24Y9lU1efKYiK8tpmL6pqwn6328z3d4lxyipoiU5dvj+Vnztkaiq84stxw37aRG/+QOfveHApECEXzR9MhbMgofjfjQuXqU8uzNIMS6CbvAI7Je17UJo6jG6GNme0Wk6jWlPvr0LtuDb6IlOxt4kW1hPjTU+nUkQfgiQQkr28RNMRSVCZenZ4c9K2gYIH3NV+/rBK/bUfbRO2dkvk+5ncwN91VM3QUAsvIUYLxNUlxz9HzVytER/uSG4Ufg56P83vyxvIujWMF7NdUu8ZE/9gzyWNZJovLLJJ9L1JOGexqZVM1LkLAtpC1COwzE9OSTXxo3f0qGcrgGWuAPK2GW7Ne97MVdkLPqRWNzQ7t3K02zEiEI9tX/ZY7zhz3Pgl95XYLoTY3VKNL9tDBS86/W69jxfHZJoUgOFAXNo5F8rM3SDjQ9sm4HIiFXjKwC1SY6aWTN4z3w==|920

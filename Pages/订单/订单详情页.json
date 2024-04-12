@@ -563,6 +563,7 @@
           "TableName": "订单明细表",
           "BindingInfos": [
             {
+              "GUID": "660336b9-c422-43e6-a28b-33b7841b39b2",
               "BindingInfo": {
                 "TableName": "订单明细表",
                 "ColumnName": "产品ID",
@@ -576,6 +577,7 @@
               "ColumnName": "产品编号"
             },
             {
+              "GUID": "74a6106a-3787-4012-8a66-075aa17a0c6d",
               "BindingInfo": {
                 "TableName": "订单明细表",
                 "ColumnName": "产品ID",
@@ -589,6 +591,7 @@
               "ColumnName": "类型"
             },
             {
+              "GUID": "ae872171-ca16-48b7-b9b4-21dd65c0526c",
               "BindingInfo": {
                 "TableName": "订单明细表",
                 "ColumnName": "产品ID",
@@ -602,6 +605,7 @@
               "ColumnName": "名称"
             },
             {
+              "GUID": "b8c9758d-a490-4eee-8fe7-25d5f27bff46",
               "BindingInfo": {
                 "TableName": "订单明细表",
                 "ColumnName": "单价",
@@ -610,6 +614,7 @@
               "ColumnName": "单价"
             },
             {
+              "GUID": "83298249-d808-4523-b22b-74eed054371f",
               "BindingInfo": {
                 "TableName": "订单明细表",
                 "ColumnName": "数量",
@@ -2089,4 +2094,4 @@
       "Size": "824,976"
     }
   ]
-}//pgm3hJ7te9w3CDbeVrG6IrGUlgc9FBTpQXRBZZRWhobDygHAGVZqQOk4hKBY4KbVDkf6sS13tpRVFUi1otbSyyq89I0Aq/vF9uWzRH0l8nuI110VG6yAH2PceZJuKYR68ZPfLacLrS1iCP1JPM8FVm4Q0Bb90t3Y0/POW8qDP2jAe1IhedTP3iZwKVzY0UCP9cjheSt2Besf/NKUKBWglQQNYstc/oQ4/60cPnG+FFDOk6mUv/Ob1eiKDVY/OVt8YJaRC+jeFZH34DY6BRlmzkxM01mo4Antu6e6We+6xaZJxAWKKNODKH1oGcDd8qoyLmZIVNL++B29ntDaW03imoMybKtGZwB2W1I2lBNiXwK1MfmT9r4CFWUvGjfFWY203+aHX/5yMSmqumroXfEK9xI4laYMAR769CphaYGiaQV39fNiCn3uHNNG9sApcgVe+1WE4rd+niDIpdcDof6aXd0LaurGXbbf+FGufofkErJOFctJx9z7JVJSEB5LwnZpEyRW5xXdxMm6ABRi4fVwqpO0IeKH8SEmuDA9hGYTT/gNkJ9CXChFrngQEJrCYbxqwEIXRb0R35I43rf1YLg2GJIb2QG18qRNCpzwNMSYyA+jB9Dc071olDhY7phyp0yYGrzzNWOTFzFv+bxExTYyZBQIxugP/P0rsEcQrQWn/9BEHeN/mbJBZK/FPBDmcUn8ASX1JWst/stUuTtyt+ipALbIXinEVkJKdGYBCduvZaaeds1pFZNHrQ0eFdxJC8vxiStPKDoU1a/AqHlW4ta5uTqNkMEx2vIio1bnl9oHplYZGU2C5h9BZOUhmHlb9Sb6UF4BlFOCGigcL4Ec+YOYgNyiblNCdgQllbIVhxd8jC4OCdkfHhTq6k2+OB0U8N4O1eEfqoom5RpgZtytNdt0tQ==|920
+}//LBi6TkD1nPzYWh32GsyM1uArqFM82L3c16z5hLI8FUhHSXs250F691xJr0mTYjXy4bXc0Ot27O9haAVnb6o9zsrlJdXDzB98lltiKZcEAGFO1iKyg+pmFEzfdPy4giMWEtREd7QOLvU1x6JUJlrf05G9S8vcZsUZ2SAqI90mRlH67DfzANQ0kRbNPYqIPlFDzH9/BS7AcaXewO2lNSdT1XtH3NK1HZKSrR6iXasHsE5RFn2eOG8JQPGuSvO/8BIPJPxrabiPEr3i80WbfQ5Dw5LudP6Rl6AspcXhmFLHQAxFWJAPiTnscnJkbQAQLfSHetgNxRmG7i0yZls//9wSazHR6MDOsgE+63lUgM6wnLCMkJd5vMU3p9UXwNCnduRKKHRShRBGp3uc8k1oQM1/q4V52ki9nS7i7ToZuoEgS2UqbYj0KQW7yg5SKrO882jw/TyPxWVkOczrpjsxnRXZNVa2/D8kMnbYJBBWM76OIZ5SdTulPFczjSAoRkY2mPYbVBaBYvpk73+4iwLtlo66atPIHrNRkxaEMoi8AIHCvxlVCrnB9NpWxZUo/8SKbFYFM7fy/LjZoRvesTJyaBYdKYbf4AMFpMzJxtoV/h6t3Xv3t/UZj2jSh4+zc4ypLb/ghelYQ6J01dBIQfM8Iz4MacCMp/dQnBzo73kyt+lEhfTiJc5CEnwPKo4uXgI8EKs6zCYt8jL6b/YK8M4X/Cr4Waff5sW8PYl8og1rzExosN6gKRSRcKU2TUrlJVaiONjXPJUJxCAttRwmU7+EzB5gHQsVqvyVJfe0WK/TGtEC39zDzSDmXG2awVS5MzT8d05PcSRGbZtZEpyjeFYCAQMIn6HyLKhri9enhZTEaug+yDHfeKu6HREHnXHcHgwG0OtUJG2v3Zs+IBuR49uzIdj8qQ==|920

@@ -48,6 +48,7 @@
             "TableValueType": 1,
             "BindingInfos": [
               {
+                "GUID": "757abf5d-0b07-4537-ba9c-e4bab8b915e3",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "姓名",
@@ -56,6 +57,7 @@
                 "ColumnName": "姓名"
               },
               {
+                "GUID": "f6019e99-d064-4383-b8d5-5ec137bc2e5d",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "公司",
@@ -64,6 +66,7 @@
                 "ColumnName": "公司"
               },
               {
+                "GUID": "eae555e3-85e4-4938-b490-2a46669aa235",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "职位",
@@ -72,6 +75,7 @@
                 "ColumnName": "职位"
               },
               {
+                "GUID": "cb5d57e9-a02b-4cb7-bfa0-650cd8686566",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "手机",
@@ -80,6 +84,7 @@
                 "ColumnName": "手机"
               },
               {
+                "GUID": "3af913a9-28c1-4621-9363-2aeaa237f6af",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "电子邮箱",
@@ -88,6 +93,7 @@
                 "ColumnName": "电子邮箱"
               },
               {
+                "GUID": "1e5002aa-9e6e-4130-b711-9073ee8f5d65",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "潜客来源ID",
@@ -96,6 +102,7 @@
                 "ColumnName": "潜客来源ID"
               },
               {
+                "GUID": "93ee8fea-7329-4545-b937-1bb8789f9502",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "网站",
@@ -104,6 +111,7 @@
                 "ColumnName": "网站"
               },
               {
+                "GUID": "82fe2c80-e1c3-43cc-95c3-838383ba6446",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "行业ID",
@@ -112,6 +120,7 @@
                 "ColumnName": "行业ID"
               },
               {
+                "GUID": "34185f24-46e4-4b9c-a0a4-26fda65ccaec",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "客户类型ID",
@@ -120,6 +129,7 @@
                 "ColumnName": "客户类型ID"
               },
               {
+                "GUID": "f91dc46e-1109-40ce-ab42-6ca4d5fe4c57",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "年收入",
@@ -128,6 +138,7 @@
                 "ColumnName": "年收入"
               },
               {
+                "GUID": "d1120bad-5eea-4870-8723-34c0ca5bac85",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "员工数",
@@ -136,6 +147,7 @@
                 "ColumnName": "员工数"
               },
               {
+                "GUID": "ad5d526e-17d0-469d-8b4d-8b1d977689b5",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "地址编号",
@@ -144,6 +156,7 @@
                 "ColumnName": "地址编号"
               },
               {
+                "GUID": "be029beb-f4ec-476e-b0dd-3e84fa4ed02a",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "详细地址",
@@ -152,6 +165,7 @@
                 "ColumnName": "详细地址"
               },
               {
+                "GUID": "11e73381-eca6-46fa-b32c-b3d69ad89edf",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "负责人",
@@ -160,6 +174,7 @@
                 "ColumnName": "负责人"
               },
               {
+                "GUID": "ffc63ec1-d11c-43ba-b603-897c5a468cb3",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "备注",
@@ -168,6 +183,7 @@
                 "ColumnName": "备注"
               },
               {
+                "GUID": "e1392605-69da-4c4f-80ce-0fe36f4ff7b5",
                 "BindingInfo": {
                   "TableName": "潜客表",
                   "ColumnName": "电话",
@@ -235,7 +251,7 @@
                   "Message": "当前客户已存在，请在该客户下关联联系人"
                 }
               ],
-              "ID": "65ce18ef-4ca0-406c-9cc8-a486d8817c25"
+              "ID": "67aee31d-a854-492d-9ff6-b97d0bd67da7"
             },
             {
               "CommandList": [
@@ -565,12 +581,12 @@
                           ]
                         }
                       ],
-                      "ID": "f420d407-1df8-4f83-93b0-26dcc1eeb308"
+                      "ID": "967fddad-e4fd-412d-83b1-1d8293f6d06c"
                     }
                   ]
                 }
               ],
-              "ID": "8764f809-5bca-43eb-b3a2-6be50a6eb90f"
+              "ID": "3beeb633-4714-4bb6-8f05-56299dbe056e"
             }
           ]
         }
